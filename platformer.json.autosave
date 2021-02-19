@@ -1144,22 +1144,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "TiledForestBackground",
-          "persistentUuid": "84273669-7f92-49a4-9e48-f4bab6c58a80",
-          "width": 0,
-          "x": 832,
-          "y": 129,
-          "zOrder": 30,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
