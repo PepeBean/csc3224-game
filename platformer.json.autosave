@@ -976,6 +976,276 @@
         "name": "NormalAttack-11.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Background.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "darktile-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "darktile-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Forest_Tileset.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Forest_Tileset.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewFile-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewFile-1-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tile_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tile_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "obj_0021_Layer-22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "obj_0021_Layer-22.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-2-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-3-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-4-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-2-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-3-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle-4-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle-4-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Dead-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dead-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Dead-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dead-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Dead-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dead-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Dead-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dead-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "arrow-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arrow-1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -985,18 +1255,18 @@
   "variables": [],
   "layouts": [
     {
-      "b": 247,
+      "b": 36,
       "disableInputWhenNotFocused": true,
       "mangledName": "New_32scene",
       "name": "New scene",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 208,
+      "r": 52,
       "standardSortMethod": false,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 244,
+      "v": 65,
       "uiSettings": {
         "grid": false,
         "gridB": 255,
@@ -1008,14 +1278,14 @@
         "gridWidth": 70,
         "snap": true,
         "windowMask": true,
-        "zoomFactor": 0.3606
+        "zoomFactor": 0.5526
       },
       "objectsGroups": [
         {
           "name": "Enemy",
           "objects": [
             {
-              "name": "SlimeWalk"
+              "name": "SkeletonEnemy"
             },
             {
               "name": "Fly"
@@ -1053,11 +1323,11 @@
         },
         {
           "name": "CheckpointX",
-          "value": "0"
+          "value": "-29"
         },
         {
           "name": "CheckpointY",
-          "value": "0"
+          "value": "439"
         },
         {
           "name": "PlayerJustDead",
@@ -1074,8 +1344,8 @@
           "name": "Player",
           "persistentUuid": "788c041d-1b63-42b6-a22a-e95262a08f83",
           "width": 168,
-          "x": -58,
-          "y": 417,
+          "x": -29,
+          "y": 439,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -1084,31 +1354,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 70,
+          "height": 16,
           "layer": "",
           "locked": false,
           "name": "TiledGrassPlatform",
           "persistentUuid": "b3af049c-dacf-48fe-8973-5734e0eb6ce1",
-          "width": 4222.89,
-          "x": -446,
-          "y": 570,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 487.462,
-          "layer": "",
-          "locked": false,
-          "name": "TiledCastlePlatform",
-          "persistentUuid": "05e616a8-abe0-4998-b72d-cbe45c41b146",
-          "width": 502.923,
+          "width": 4223,
           "x": -542,
-          "y": 81,
-          "zOrder": 1,
+          "y": 584,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1122,8 +1376,8 @@
           "name": "PlayerHitBox",
           "persistentUuid": "7baa1486-2886-496d-a791-357f80f4212d",
           "width": 39,
-          "x": 7,
-          "y": 464,
+          "x": 35,
+          "y": 484,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1132,15 +1386,47 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 724,
+          "height": 800,
           "layer": "Background",
-          "locked": true,
+          "locked": false,
           "name": "TiledForestBackground",
           "persistentUuid": "2e89b9b9-58d2-4ffc-bb04-973935cb322a",
-          "width": 744,
-          "x": 0,
-          "y": -110,
+          "width": 797,
+          "x": -4,
+          "y": -159,
           "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 347,
+          "layer": "",
+          "locked": false,
+          "name": "Tree",
+          "persistentUuid": "3d5390b3-6b54-4df4-a2e5-7b106dff1507",
+          "width": 349,
+          "x": -353,
+          "y": 238,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 325,
+          "layer": "",
+          "locked": false,
+          "name": "SkeletonEnemy",
+          "persistentUuid": "b261b708-7d06-4af9-aed6-73b479978919",
+          "width": 346,
+          "x": 163,
+          "y": 366,
+          "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1155,20 +1441,20 @@
           "variables": [],
           "behaviors": [
             {
+              "ignoreDefaultControls": false,
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGrabPlatforms": false,
               "deceleration": 1500,
               "gravity": 1000,
-              "ignoreDefaultControls": false,
               "jumpSpeed": 600,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "roundCoordinates": true,
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "xGrabTolerance": 10,
               "yGrabOffset": 0
             }
@@ -2524,25 +2810,7 @@
           "height": 70,
           "name": "TiledGrassPlatform",
           "tags": "",
-          "texture": "grassHalfMid.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 70,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "height": 70,
-          "name": "TiledCastlePlatform",
-          "tags": "",
-          "texture": "castleCenter.png",
+          "texture": "Tile_02.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 70,
           "variables": [],
@@ -2833,7 +3101,7 @@
           ]
         },
         {
-          "name": "SlimeWalk",
+          "name": "SkeletonEnemy",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": true,
@@ -2867,16 +3135,16 @@
           ],
           "animations": [
             {
-              "name": "Walking",
+              "name": "Idle",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.3,
+                  "timeBetweenFrames": 0.1,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "slimeWalk1.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle-1-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2892,27 +3160,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 59,
+                            "y": 55
                           },
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 92,
+                            "y": 47
                           },
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 92,
+                            "y": 101
                           },
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 62,
+                            "y": 97
                           }
                         ]
                       ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "slimeWalk2.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle-2-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2928,20 +3196,248 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 59,
+                            "y": 55
                           },
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 92,
+                            "y": 47
                           },
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 92,
+                            "y": 101
                           },
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 62,
+                            "y": 97
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle-3-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 59,
+                            "y": 55
+                          },
+                          {
+                            "x": 92,
+                            "y": 47
+                          },
+                          {
+                            "x": 92,
+                            "y": 101
+                          },
+                          {
+                            "x": 62,
+                            "y": 97
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle-4-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 59,
+                            "y": 55
+                          },
+                          {
+                            "x": 92,
+                            "y": 47
+                          },
+                          {
+                            "x": 92,
+                            "y": 101
+                          },
+                          {
+                            "x": 62,
+                            "y": 97
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Walking",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Walking-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 59,
+                            "y": 55
+                          },
+                          {
+                            "x": 92,
+                            "y": 47
+                          },
+                          {
+                            "x": 92,
+                            "y": 101
+                          },
+                          {
+                            "x": 62,
+                            "y": 97
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Walking-2-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 59,
+                            "y": 55
+                          },
+                          {
+                            "x": 92,
+                            "y": 47
+                          },
+                          {
+                            "x": 92,
+                            "y": 101
+                          },
+                          {
+                            "x": 62,
+                            "y": 97
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Walking-3-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 59,
+                            "y": 55
+                          },
+                          {
+                            "x": 92,
+                            "y": 47
+                          },
+                          {
+                            "x": 92,
+                            "y": 101
+                          },
+                          {
+                            "x": 62,
+                            "y": 97
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Walking-4-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 59,
+                            "y": 55
+                          },
+                          {
+                            "x": 92,
+                            "y": 47
+                          },
+                          {
+                            "x": 92,
+                            "y": 101
+                          },
+                          {
+                            "x": 62,
+                            "y": 97
                           }
                         ]
                       ]
@@ -2956,11 +3452,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 1,
+                  "timeBetweenFrames": 0.0667,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "slimeDead.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "Dead-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2976,20 +3472,128 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 59,
+                            "y": 55
                           },
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 92,
+                            "y": 47
                           },
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 92,
+                            "y": 101
                           },
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 62,
+                            "y": 97
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dead-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 59,
+                            "y": 55
+                          },
+                          {
+                            "x": 92,
+                            "y": 47
+                          },
+                          {
+                            "x": 92,
+                            "y": 101
+                          },
+                          {
+                            "x": 62,
+                            "y": 97
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dead-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 59,
+                            "y": 55
+                          },
+                          {
+                            "x": 92,
+                            "y": 47
+                          },
+                          {
+                            "x": 92,
+                            "y": 101
+                          },
+                          {
+                            "x": 62,
+                            "y": 97
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dead-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 59,
+                            "y": 55
+                          },
+                          {
+                            "x": 92,
+                            "y": 47
+                          },
+                          {
+                            "x": 92,
+                            "y": 101
+                          },
+                          {
+                            "x": 62,
+                            "y": 97
                           }
                         ]
                       ]
@@ -3666,14 +4270,16 @@
           "height": 128,
           "name": "TiledForestBackground",
           "tags": "",
-          "texture": "tiled_Forest Background.png",
+          "texture": "Background.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
           "variables": [],
           "behaviors": [
             {
               "name": "HorizontalTiledSpriteParallax",
-              "type": "Parallax::HorizontalTiledSpriteParallax"
+              "type": "Parallax::HorizontalTiledSpriteParallax",
+              "ParallaxFactor": 0.5,
+              "FollowedLayer": ""
             }
           ]
         },
@@ -3808,6 +4414,120 @@
               "type": "Tween::TweenBehavior"
             }
           ]
+        },
+        {
+          "name": "Tree",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "obj_0021_Layer-22.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 65.805,
+                            "y": 0
+                          },
+                          {
+                            "x": 38.5431,
+                            "y": 54.94
+                          },
+                          {
+                            "x": 24.1734,
+                            "y": 55.5088
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "name": "ArrowProjectile",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "arrow",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "arrow-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -3887,11 +4607,23 @@
             {
               "type": {
                 "inverted": false,
-                "value": "SourisBouton"
+                "value": "KeyPressed"
               },
               "parameters": [
                 "",
-                "Left"
+                "e"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Timer"
+              },
+              "parameters": [
+                "",
+                "0.25",
+                "\"firerate\""
               ],
               "subInstructions": []
             }
@@ -3907,6 +4639,44 @@
                 "\"NormalAttack\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "ArrowProjectile",
+                "Player.X() + 84",
+                "Player.Y() + 77",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "ArrowProjectile",
+                "Player.Angle()",
+                "400",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"firerate\""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -3919,11 +4689,11 @@
             {
               "type": {
                 "inverted": true,
-                "value": "SourisBouton"
+                "value": "KeyPressed"
               },
               "parameters": [
                 "",
-                "Left"
+                "e"
               ],
               "subInstructions": []
             }
@@ -4514,262 +5284,6 @@
           "creationTime": 0,
           "disabled": false,
           "folded": false,
-          "name": "Virtual controls",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "SystemInfo::HasTouchScreen"
-                  },
-                  "parameters": [
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "VirtualControls"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "DepartScene"
-                  },
-                  "parameters": [
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "TouchSimulateMouse"
-                  },
-                  "parameters": [
-                    "",
-                    "no"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "LeftButton",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlatformBehavior::SimulateLeftKey"
-                  },
-                  "parameters": [
-                    "PlayerHitBox",
-                    "PlatformerObject"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "RightButton",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlatformBehavior::SimulateRightKey"
-                  },
-                  "parameters": [
-                    "PlayerHitBox",
-                    "PlatformerObject"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "TopButton",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlatformBehavior::SimulateUpKey"
-                  },
-                  "parameters": [
-                    "PlayerHitBox",
-                    "PlatformerObject"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlatformBehavior::SimulateLadderKey"
-                  },
-                  "parameters": [
-                    "PlayerHitBox",
-                    "PlatformerObject"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "BottomButton",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlatformBehavior::SimulateDownKey"
-                  },
-                  "parameters": [
-                    "PlayerHitBox",
-                    "PlatformerObject"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "JumpButton",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlatformBehavior::SimulateJumpKey"
-                  },
-                  "parameters": [
-                    "PlayerHitBox",
-                    "PlatformerObject"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": false,
           "name": "Checkpoint and player death",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4889,7 +5403,7 @@
                     "=",
                     "Variable(CheckpointX)",
                     "=",
-                    "Variable(CheckpointY)-PlayerHitBox.Height()"
+                    "Variable(CheckpointY)"
                   ],
                   "subInstructions": []
                 },
@@ -4935,69 +5449,6 @@
                   },
                   "comment": "Make a fade in effect",
                   "comment2": ""
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "FadeIn",
-                        "0",
-                        "0",
-                        "\"GUI\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "TiledSpriteObject::Width"
-                      },
-                      "parameters": [
-                        "FadeIn",
-                        "=",
-                        "SceneWindowWidth()"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "TiledSpriteObject::Height"
-                      },
-                      "parameters": [
-                        "FadeIn",
-                        "=",
-                        "SceneWindowHeight()"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Tween::AddObjectOpacityTween"
-                      },
-                      "parameters": [
-                        "FadeIn",
-                        "Tween",
-                        "\"FadeIn\"",
-                        "0",
-                        "\"easeInQuad\"",
-                        "1500",
-                        "yes"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
                 }
               ]
             },
@@ -5052,26 +5503,6 @@
             }
           ],
           "parameters": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "Player",
-                "\"NormalAttack\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [],
-          "events": []
         }
       ],
       "layers": [
@@ -5243,7 +5674,7 @@
               "comment2": ""
             },
             {
-              "disabled": false,
+              "disabled": true,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -5278,7 +5709,7 @@
               "events": []
             },
             {
-              "disabled": false,
+              "disabled": true,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -5313,7 +5744,7 @@
               "events": []
             },
             {
-              "disabled": false,
+              "disabled": true,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -5371,7 +5802,7 @@
               "events": []
             },
             {
-              "disabled": false,
+              "disabled": true,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
