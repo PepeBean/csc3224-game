@@ -4614,6 +4614,18 @@
                 "e"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Timer"
+              },
+              "parameters": [
+                "",
+                "0.25",
+                "\"firerate\""
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -4636,8 +4648,8 @@
               "parameters": [
                 "",
                 "ArrowProjectile",
-                "Player.X()",
-                "Player.Y()",
+                "Player.X() + 84",
+                "Player.Y() + 77",
                 ""
               ],
               "subInstructions": []
@@ -4652,6 +4664,17 @@
                 "Player.Angle()",
                 "400",
                 "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"firerate\""
               ],
               "subInstructions": []
             }
