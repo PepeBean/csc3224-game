@@ -20,7 +20,7 @@
     "author": "Pepe Bean",
     "windowWidth": 800,
     "windowHeight": 600,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "/home/pepe/csc3224-game/docs",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -3069,11 +3069,6 @@
       "name": "MovementCheat",
       "type": "string",
       "value": "-1"
-    },
-    {
-      "name": "HighScore",
-      "type": "string",
-      "value": "0"
     }
   ],
   "layouts": [
@@ -4036,7 +4031,7 @@
         "gridWidth": 70,
         "snap": true,
         "windowMask": true,
-        "zoomFactor": 0.579
+        "zoomFactor": 0.432
       },
       "objectsGroups": [
         {
@@ -4069,10 +4064,15 @@
         {
           "name": "Score",
           "type": "string",
-          "value": "200"
+          "value": "0"
         },
         {
           "name": "BossPhase",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "HighScore",
           "type": "string",
           "value": "0"
         }
@@ -4167,14 +4167,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 39,
-          "layer": "",
+          "height": 23,
+          "layer": "GUI",
           "locked": false,
           "name": "HealthBar",
           "persistentUuid": "71070e44-ef18-4d24-b40c-d21970c91bad",
-          "width": 442,
-          "x": -680,
-          "y": -51,
+          "width": 202,
+          "x": 251,
+          "y": 15,
           "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
@@ -4272,6 +4272,22 @@
           "x": -273,
           "y": 475,
           "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "GUI",
+          "locked": false,
+          "name": "HealthText",
+          "persistentUuid": "eb6b68d3-64ba-41b0-8b92-4f1ead7790a0",
+          "width": 0,
+          "x": 402,
+          "y": 50,
+          "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5265,7 +5281,7 @@
             {
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "maxSpeed": 200,
+              "maxSpeed": 150,
               "acceleration": 5000,
               "canGrabPlatforms": false,
               "deceleration": 5000,
@@ -5608,7 +5624,7 @@
             {
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "maxSpeed": 200,
+              "maxSpeed": 150,
               "deceleration": 500,
               "acceleration": 500,
               "canGrabPlatforms": false,
@@ -6206,7 +6222,7 @@
             {
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "maxSpeed": 300,
+              "maxSpeed": 250,
               "acceleration": 1500,
               "canGrabPlatforms": false,
               "deceleration": 1500,
@@ -6695,7 +6711,7 @@
             {
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "maxSpeed": 150,
+              "maxSpeed": 100,
               "acceleration": 1500,
               "canGrabPlatforms": false,
               "deceleration": 1500,
@@ -7323,9 +7339,9 @@
           ],
           "behaviors": [
             {
-              "maxSpeed": 100,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "maxSpeed": 75,
               "acceleration": 1500,
               "canGrabPlatforms": false,
               "deceleration": 1500,
@@ -8744,10 +8760,10 @@
           "variables": [],
           "behaviors": [
             {
-              "ladderClimbingSpeed": 150,
-              "maxSpeed": 150,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "ladderClimbingSpeed": 150,
+              "maxSpeed": 125,
               "acceleration": 1500,
               "canGrabPlatforms": false,
               "deceleration": 1500,
@@ -9351,13 +9367,32 @@
           "variables": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "Jumpthru",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Jumpthru",
               "yGrabOffset": 0
             }
           ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "HealthText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "House Health",
+          "font": "EquipmentPro.ttf",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -9416,6 +9451,31 @@
                 "yes",
                 "10",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "LireFichierExp"
+              },
+              "parameters": [
+                "\"Storage\"",
+                "\"HighScore\"",
+                "",
+                "HighScore"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "HighScore",
+                "=",
+                "\"High Score: \" + ToString(Variable(HighScore))"
               ],
               "subInstructions": []
             }
@@ -9870,12 +9930,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ChangeScaleWidth"
+                "value": "ChangeWidth"
               },
               "parameters": [
                 "HealthBar",
                 "=",
-                "House.Variable(HouseHealth)"
+                "40 * House.Variable(HouseHealth)"
               ],
               "subInstructions": []
             },
@@ -9888,18 +9948,6 @@
                 "ScoreText",
                 "=",
                 "\"Score: \" + ToString(Variable(Score))"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "HighScore",
-                "=",
-                "\"High Score: \" + ToString(GlobalVariable(HighScore))"
               ],
               "subInstructions": []
             }
@@ -10502,20 +10550,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "PlayMusic"
-              },
-              "parameters": [
-                "",
-                "life lost sound.wav",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "Scene"
               },
               "parameters": [
@@ -10535,7 +10569,7 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarGlobal"
+                    "value": "VarScene"
                   },
                   "parameters": [
                     "HighScore",
@@ -10543,17 +10577,25 @@
                     "Variable(Score)"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
                 }
               ],
               "actions": [
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarGlobal"
+                    "value": "EcrireFichierExp"
                   },
                   "parameters": [
-                    "HighScore",
-                    "=",
+                    "\"Storage\"",
+                    "\"HighScore\"",
                     "Variable(Score)"
                   ],
                   "subInstructions": []
@@ -13912,6 +13954,18 @@
                     "0"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Score",
+                    "+",
+                    "10"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -14113,6 +14167,14 @@
                 "\"Dead\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -14125,6 +14187,18 @@
                 "BossPhase",
                 "=",
                 "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "50"
               ],
               "subInstructions": []
             }

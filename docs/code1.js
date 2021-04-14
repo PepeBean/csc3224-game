@@ -71,6 +71,10 @@ gdjs.GameplayCode.GDPlatformObjects1= [];
 gdjs.GameplayCode.GDPlatformObjects2= [];
 gdjs.GameplayCode.GDPlatformObjects3= [];
 gdjs.GameplayCode.GDPlatformObjects4= [];
+gdjs.GameplayCode.GDHealthTextObjects1= [];
+gdjs.GameplayCode.GDHealthTextObjects2= [];
+gdjs.GameplayCode.GDHealthTextObjects3= [];
+gdjs.GameplayCode.GDHealthTextObjects4= [];
 
 gdjs.GameplayCode.conditionTrue_0 = {val:false};
 gdjs.GameplayCode.condition0IsTrue_0 = {val:false};
@@ -228,7 +232,7 @@ gdjs.GameplayCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElaps
 }if ( gdjs.GameplayCode.condition0IsTrue_0.val ) {
 {
 {gdjs.GameplayCode.conditionTrue_1 = gdjs.GameplayCode.condition1IsTrue_0;
-gdjs.GameplayCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9514524);
+gdjs.GameplayCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9659492);
 }
 }}
 if (gdjs.GameplayCode.condition1IsTrue_0.val) {
@@ -252,10 +256,17 @@ gdjs.GameplayCode.GDBossObjects1.length = 0;
 
 
 gdjs.GameplayCode.condition0IsTrue_0.val = false;
+gdjs.GameplayCode.condition1IsTrue_0.val = false;
 {
-gdjs.GameplayCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2)) < gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(1));
-}if (gdjs.GameplayCode.condition0IsTrue_0.val) {
-{runtimeScene.getGame().getVariables().getFromIndex(2).setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(1)));
+gdjs.GameplayCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3)) < gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(1));
+}if ( gdjs.GameplayCode.condition0IsTrue_0.val ) {
+{
+{gdjs.GameplayCode.conditionTrue_1 = gdjs.GameplayCode.condition1IsTrue_0;
+gdjs.GameplayCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9660308);
+}
+}}
+if (gdjs.GameplayCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.storage.writeNumberInJSONFile("Storage", "HighScore", gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(1)));
 }}
 
 }
@@ -553,6 +564,7 @@ if (gdjs.GameplayCode.condition1IsTrue_0.val) {
     gdjs.GameplayCode.GDHouseObjects2[i].returnVariable(gdjs.GameplayCode.GDHouseObjects2[i].getVariables().get("HouseHealth")).sub(5);
 }
 }{runtimeScene.getVariables().getFromIndex(2).setNumber(0);
+}{runtimeScene.getVariables().getFromIndex(1).add(10);
 }}
 
 }
@@ -654,7 +666,7 @@ gdjs.GameplayCode.GDGoblinEnemyObjects1.length = k;for(var i = 0, k = 0, l = gdj
 gdjs.GameplayCode.GDBossObjects1.length = k;}if ( gdjs.GameplayCode.condition0IsTrue_0.val ) {
 {
 {gdjs.GameplayCode.conditionTrue_1 = gdjs.GameplayCode.condition1IsTrue_0;
-gdjs.GameplayCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9635124);
+gdjs.GameplayCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9768964);
 }
 }}
 if (gdjs.GameplayCode.condition1IsTrue_0.val) {
@@ -694,9 +706,14 @@ gdjs.GameplayCode.condition0IsTrue_0.val = false;
 {
 gdjs.GameplayCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.GameplayCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("HighScore"), gdjs.GameplayCode.GDHighScoreObjects1);
 {gdjs.evtTools.camera.setCameraX(runtimeScene, 40, "", 0);
 }{gdjs.evtTools.camera.setCameraZoom(runtimeScene, 0.5, "", 0);
 }{gdjs.evtTools.sound.playMusic(runtimeScene, "music_orlamusic_Epic+010.mp3", true, 10, 1);
+}{gdjs.evtTools.storage.readNumberFromJSONFile("Storage", "HighScore", runtimeScene, runtimeScene.getVariables().getFromIndex(3));
+}{for(var i = 0, len = gdjs.GameplayCode.GDHighScoreObjects1.length ;i < len;++i) {
+    gdjs.GameplayCode.GDHighScoreObjects1[i].setString("High Score: " + gdjs.evtTools.common.toString(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3))));
+}
 }
 { //Subevents
 gdjs.GameplayCode.eventsList0(runtimeScene);} //End of subevents
@@ -745,17 +762,13 @@ gdjs.GameplayCode.eventsList1(runtimeScene);} //End of subevents
 
 {
 gdjs.copyArray(runtimeScene.getObjects("HealthBar"), gdjs.GameplayCode.GDHealthBarObjects1);
-gdjs.copyArray(runtimeScene.getObjects("HighScore"), gdjs.GameplayCode.GDHighScoreObjects1);
 gdjs.copyArray(runtimeScene.getObjects("House"), gdjs.GameplayCode.GDHouseObjects1);
 gdjs.copyArray(runtimeScene.getObjects("ScoreText"), gdjs.GameplayCode.GDScoreTextObjects1);
 {for(var i = 0, len = gdjs.GameplayCode.GDHealthBarObjects1.length ;i < len;++i) {
-    gdjs.GameplayCode.GDHealthBarObjects1[i].setScaleX((gdjs.RuntimeObject.getVariableNumber(((gdjs.GameplayCode.GDHouseObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.GameplayCode.GDHouseObjects1[0].getVariables()).get("HouseHealth"))));
+    gdjs.GameplayCode.GDHealthBarObjects1[i].setWidth(40 * (gdjs.RuntimeObject.getVariableNumber(((gdjs.GameplayCode.GDHouseObjects1.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.GameplayCode.GDHouseObjects1[0].getVariables()).get("HouseHealth"))));
 }
 }{for(var i = 0, len = gdjs.GameplayCode.GDScoreTextObjects1.length ;i < len;++i) {
     gdjs.GameplayCode.GDScoreTextObjects1[i].setString("Score: " + gdjs.evtTools.common.toString(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(1))));
-}
-}{for(var i = 0, len = gdjs.GameplayCode.GDHighScoreObjects1.length ;i < len;++i) {
-    gdjs.GameplayCode.GDHighScoreObjects1[i].setString("High Score: " + gdjs.evtTools.common.toString(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2))));
 }
 }}
 
@@ -1086,12 +1099,11 @@ for(var i = 0, k = 0, l = gdjs.GameplayCode.GDHouseObjects1.length;i<l;++i) {
 gdjs.GameplayCode.GDHouseObjects1.length = k;}if ( gdjs.GameplayCode.condition0IsTrue_0.val ) {
 {
 {gdjs.GameplayCode.conditionTrue_1 = gdjs.GameplayCode.condition1IsTrue_0;
-gdjs.GameplayCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9524340);
+gdjs.GameplayCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9653188);
 }
 }}
 if (gdjs.GameplayCode.condition1IsTrue_0.val) {
-{gdjs.evtTools.sound.playMusic(runtimeScene, "life lost sound.wav", false, 100, 1);
-}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "GameOver", true);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "GameOver", true);
 }
 { //Subevents
 gdjs.GameplayCode.eventsList3(runtimeScene);} //End of subevents
@@ -1414,6 +1426,7 @@ for(var i = 0, len = gdjs.GameplayCode.GDBossObjects1.length ;i < len;++i) {
 gdjs.copyArray(runtimeScene.getObjects("Boss"), gdjs.GameplayCode.GDBossObjects1);
 
 gdjs.GameplayCode.condition0IsTrue_0.val = false;
+gdjs.GameplayCode.condition1IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.GameplayCode.GDBossObjects1.length;i<l;++i) {
     if ( gdjs.GameplayCode.GDBossObjects1[i].isCurrentAnimationName("Dead") ) {
@@ -1422,8 +1435,15 @@ for(var i = 0, k = 0, l = gdjs.GameplayCode.GDBossObjects1.length;i<l;++i) {
         ++k;
     }
 }
-gdjs.GameplayCode.GDBossObjects1.length = k;}if (gdjs.GameplayCode.condition0IsTrue_0.val) {
+gdjs.GameplayCode.GDBossObjects1.length = k;}if ( gdjs.GameplayCode.condition0IsTrue_0.val ) {
+{
+{gdjs.GameplayCode.conditionTrue_1 = gdjs.GameplayCode.condition1IsTrue_0;
+gdjs.GameplayCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9771852);
+}
+}}
+if (gdjs.GameplayCode.condition1IsTrue_0.val) {
 {runtimeScene.getVariables().getFromIndex(2).setNumber(0);
+}{runtimeScene.getVariables().getFromIndex(1).add(50);
 }}
 
 }
@@ -1506,6 +1526,10 @@ gdjs.GameplayCode.GDPlatformObjects1.length = 0;
 gdjs.GameplayCode.GDPlatformObjects2.length = 0;
 gdjs.GameplayCode.GDPlatformObjects3.length = 0;
 gdjs.GameplayCode.GDPlatformObjects4.length = 0;
+gdjs.GameplayCode.GDHealthTextObjects1.length = 0;
+gdjs.GameplayCode.GDHealthTextObjects2.length = 0;
+gdjs.GameplayCode.GDHealthTextObjects3.length = 0;
+gdjs.GameplayCode.GDHealthTextObjects4.length = 0;
 
 gdjs.GameplayCode.eventsList10(runtimeScene);
 return;
