@@ -2,79 +2,60 @@ gdjs.GameplayCode = {};
 gdjs.GameplayCode.GDPlayerObjects1= [];
 gdjs.GameplayCode.GDPlayerObjects2= [];
 gdjs.GameplayCode.GDPlayerObjects3= [];
-gdjs.GameplayCode.GDPlayerObjects4= [];
 gdjs.GameplayCode.GDTiledGrassPlatformObjects1= [];
 gdjs.GameplayCode.GDTiledGrassPlatformObjects2= [];
 gdjs.GameplayCode.GDTiledGrassPlatformObjects3= [];
-gdjs.GameplayCode.GDTiledGrassPlatformObjects4= [];
 gdjs.GameplayCode.GDSkeletonEnemyObjects1= [];
 gdjs.GameplayCode.GDSkeletonEnemyObjects2= [];
 gdjs.GameplayCode.GDSkeletonEnemyObjects3= [];
-gdjs.GameplayCode.GDSkeletonEnemyObjects4= [];
 gdjs.GameplayCode.GDFlyingEyeEnemyObjects1= [];
 gdjs.GameplayCode.GDFlyingEyeEnemyObjects2= [];
 gdjs.GameplayCode.GDFlyingEyeEnemyObjects3= [];
-gdjs.GameplayCode.GDFlyingEyeEnemyObjects4= [];
 gdjs.GameplayCode.GDTiledForestBackgroundObjects1= [];
 gdjs.GameplayCode.GDTiledForestBackgroundObjects2= [];
 gdjs.GameplayCode.GDTiledForestBackgroundObjects3= [];
-gdjs.GameplayCode.GDTiledForestBackgroundObjects4= [];
 gdjs.GameplayCode.GDHouseObjects1= [];
 gdjs.GameplayCode.GDHouseObjects2= [];
 gdjs.GameplayCode.GDHouseObjects3= [];
-gdjs.GameplayCode.GDHouseObjects4= [];
 gdjs.GameplayCode.GDArrowProjectileObjects1= [];
 gdjs.GameplayCode.GDArrowProjectileObjects2= [];
 gdjs.GameplayCode.GDArrowProjectileObjects3= [];
-gdjs.GameplayCode.GDArrowProjectileObjects4= [];
 gdjs.GameplayCode.GDDirtObjects1= [];
 gdjs.GameplayCode.GDDirtObjects2= [];
 gdjs.GameplayCode.GDDirtObjects3= [];
-gdjs.GameplayCode.GDDirtObjects4= [];
 gdjs.GameplayCode.GDGoblinEnemyObjects1= [];
 gdjs.GameplayCode.GDGoblinEnemyObjects2= [];
 gdjs.GameplayCode.GDGoblinEnemyObjects3= [];
-gdjs.GameplayCode.GDGoblinEnemyObjects4= [];
 gdjs.GameplayCode.GDMushroomEnemyObjects1= [];
 gdjs.GameplayCode.GDMushroomEnemyObjects2= [];
 gdjs.GameplayCode.GDMushroomEnemyObjects3= [];
-gdjs.GameplayCode.GDMushroomEnemyObjects4= [];
 gdjs.GameplayCode.GDHealthBarObjects1= [];
 gdjs.GameplayCode.GDHealthBarObjects2= [];
 gdjs.GameplayCode.GDHealthBarObjects3= [];
-gdjs.GameplayCode.GDHealthBarObjects4= [];
 gdjs.GameplayCode.GDeggObjects1= [];
 gdjs.GameplayCode.GDeggObjects2= [];
 gdjs.GameplayCode.GDeggObjects3= [];
-gdjs.GameplayCode.GDeggObjects4= [];
 gdjs.GameplayCode.GDHomeButtonObjects1= [];
 gdjs.GameplayCode.GDHomeButtonObjects2= [];
 gdjs.GameplayCode.GDHomeButtonObjects3= [];
-gdjs.GameplayCode.GDHomeButtonObjects4= [];
 gdjs.GameplayCode.GDScoreTextObjects1= [];
 gdjs.GameplayCode.GDScoreTextObjects2= [];
 gdjs.GameplayCode.GDScoreTextObjects3= [];
-gdjs.GameplayCode.GDScoreTextObjects4= [];
 gdjs.GameplayCode.GDHighScoreObjects1= [];
 gdjs.GameplayCode.GDHighScoreObjects2= [];
 gdjs.GameplayCode.GDHighScoreObjects3= [];
-gdjs.GameplayCode.GDHighScoreObjects4= [];
 gdjs.GameplayCode.GDBossObjects1= [];
 gdjs.GameplayCode.GDBossObjects2= [];
 gdjs.GameplayCode.GDBossObjects3= [];
-gdjs.GameplayCode.GDBossObjects4= [];
 gdjs.GameplayCode.GDBossSummonObjects1= [];
 gdjs.GameplayCode.GDBossSummonObjects2= [];
 gdjs.GameplayCode.GDBossSummonObjects3= [];
-gdjs.GameplayCode.GDBossSummonObjects4= [];
 gdjs.GameplayCode.GDPlatformObjects1= [];
 gdjs.GameplayCode.GDPlatformObjects2= [];
 gdjs.GameplayCode.GDPlatformObjects3= [];
-gdjs.GameplayCode.GDPlatformObjects4= [];
 gdjs.GameplayCode.GDHealthTextObjects1= [];
 gdjs.GameplayCode.GDHealthTextObjects2= [];
 gdjs.GameplayCode.GDHealthTextObjects3= [];
-gdjs.GameplayCode.GDHealthTextObjects4= [];
 
 gdjs.GameplayCode.conditionTrue_0 = {val:false};
 gdjs.GameplayCode.condition0IsTrue_0 = {val:false};
@@ -232,7 +213,7 @@ gdjs.GameplayCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElaps
 }if ( gdjs.GameplayCode.condition0IsTrue_0.val ) {
 {
 {gdjs.GameplayCode.conditionTrue_1 = gdjs.GameplayCode.condition1IsTrue_0;
-gdjs.GameplayCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9659492);
+gdjs.GameplayCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9667716);
 }
 }}
 if (gdjs.GameplayCode.condition1IsTrue_0.val) {
@@ -262,7 +243,7 @@ gdjs.GameplayCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumbe
 }if ( gdjs.GameplayCode.condition0IsTrue_0.val ) {
 {
 {gdjs.GameplayCode.conditionTrue_1 = gdjs.GameplayCode.condition1IsTrue_0;
-gdjs.GameplayCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9660308);
+gdjs.GameplayCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9656460);
 }
 }}
 if (gdjs.GameplayCode.condition1IsTrue_0.val) {
@@ -352,36 +333,12 @@ gdjs.copyArray(runtimeScene.getObjects("Platform"), gdjs.GameplayCode.GDPlatform
 
 {
 
-gdjs.copyArray(gdjs.GameplayCode.GDPlayerObjects2, gdjs.GameplayCode.GDPlayerObjects3);
-
-
-gdjs.GameplayCode.condition0IsTrue_0.val = false;
-{
-for(var i = 0, k = 0, l = gdjs.GameplayCode.GDPlayerObjects3.length;i<l;++i) {
-    if ( !(gdjs.GameplayCode.GDPlayerObjects3[i].getBehavior("PlatformerObject").isMoving()) ) {
-        gdjs.GameplayCode.condition0IsTrue_0.val = true;
-        gdjs.GameplayCode.GDPlayerObjects3[k] = gdjs.GameplayCode.GDPlayerObjects3[i];
-        ++k;
-    }
-}
-gdjs.GameplayCode.GDPlayerObjects3.length = k;}if (gdjs.GameplayCode.condition0IsTrue_0.val) {
-/* Reuse gdjs.GameplayCode.GDPlayerObjects3 */
-{for(var i = 0, len = gdjs.GameplayCode.GDPlayerObjects3.length ;i < len;++i) {
-    gdjs.GameplayCode.GDPlayerObjects3[i].setAnimationName("Idle");
-}
-}}
-
-}
-
-
-{
-
 /* Reuse gdjs.GameplayCode.GDPlayerObjects2 */
 
 gdjs.GameplayCode.condition0IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.GameplayCode.GDPlayerObjects2.length;i<l;++i) {
-    if ( gdjs.GameplayCode.GDPlayerObjects2[i].getBehavior("PlatformerObject").isMoving() ) {
+    if ( !(gdjs.GameplayCode.GDPlayerObjects2[i].getBehavior("PlatformerObject").isMoving()) ) {
         gdjs.GameplayCode.condition0IsTrue_0.val = true;
         gdjs.GameplayCode.GDPlayerObjects2[k] = gdjs.GameplayCode.GDPlayerObjects2[i];
         ++k;
@@ -390,7 +347,7 @@ for(var i = 0, k = 0, l = gdjs.GameplayCode.GDPlayerObjects2.length;i<l;++i) {
 gdjs.GameplayCode.GDPlayerObjects2.length = k;}if (gdjs.GameplayCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.GameplayCode.GDPlayerObjects2 */
 {for(var i = 0, len = gdjs.GameplayCode.GDPlayerObjects2.length ;i < len;++i) {
-    gdjs.GameplayCode.GDPlayerObjects2[i].setAnimationName("Running");
+    gdjs.GameplayCode.GDPlayerObjects2[i].setAnimationName("Idle");
 }
 }}
 
@@ -666,7 +623,7 @@ gdjs.GameplayCode.GDGoblinEnemyObjects1.length = k;for(var i = 0, k = 0, l = gdj
 gdjs.GameplayCode.GDBossObjects1.length = k;}if ( gdjs.GameplayCode.condition0IsTrue_0.val ) {
 {
 {gdjs.GameplayCode.conditionTrue_1 = gdjs.GameplayCode.condition1IsTrue_0;
-gdjs.GameplayCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9768964);
+gdjs.GameplayCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9770028);
 }
 }}
 if (gdjs.GameplayCode.condition1IsTrue_0.val) {
@@ -690,7 +647,6 @@ for(var i = 0, len = gdjs.GameplayCode.GDGoblinEnemyObjects1.length ;i < len;++i
 for(var i = 0, len = gdjs.GameplayCode.GDBossObjects1.length ;i < len;++i) {
     gdjs.GameplayCode.GDBossObjects1[i].setAnimationName("Dead");
 }
-}{gdjs.evtTools.sound.playMusic(runtimeScene, "soundbits_ScreamsShouts2_Monsters_Monster_Pain_Death_133.mp3", false, 30, 1);
 }{runtimeScene.getVariables().getFromIndex(1).add(10);
 }}
 
@@ -1027,9 +983,14 @@ gdjs.copyArray(runtimeScene.getObjects("BossSummon"), gdjs.GameplayCode.GDBossSu
 gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.GameplayCode.GDPlayerObjects1);
 
 gdjs.GameplayCode.condition0IsTrue_0.val = false;
+gdjs.GameplayCode.condition1IsTrue_0.val = false;
 {
 gdjs.GameplayCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GameplayCode.mapOfGDgdjs_46GameplayCode_46GDBossSummonObjects1Objects, gdjs.GameplayCode.mapOfGDgdjs_46GameplayCode_46GDPlayerObjects1Objects, false, runtimeScene, false);
-}if (gdjs.GameplayCode.condition0IsTrue_0.val) {
+}if ( gdjs.GameplayCode.condition0IsTrue_0.val ) {
+{
+gdjs.GameplayCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0)) == -(1);
+}}
+if (gdjs.GameplayCode.condition1IsTrue_0.val) {
 /* Reuse gdjs.GameplayCode.GDBossSummonObjects1 */
 /* Reuse gdjs.GameplayCode.GDPlayerObjects1 */
 {for(var i = 0, len = gdjs.GameplayCode.GDPlayerObjects1.length ;i < len;++i) {
@@ -1055,6 +1016,15 @@ gdjs.copyArray(runtimeScene.getObjects("BossSummon"), gdjs.GameplayCode.GDBossSu
     gdjs.GameplayCode.GDBossSummonObjects1[i].getBehavior("PlatformerObject").simulateLeftKey();
 }
 }}
+
+}
+
+
+{
+
+
+{
+}
 
 }
 
@@ -1099,7 +1069,7 @@ for(var i = 0, k = 0, l = gdjs.GameplayCode.GDHouseObjects1.length;i<l;++i) {
 gdjs.GameplayCode.GDHouseObjects1.length = k;}if ( gdjs.GameplayCode.condition0IsTrue_0.val ) {
 {
 {gdjs.GameplayCode.conditionTrue_1 = gdjs.GameplayCode.condition1IsTrue_0;
-gdjs.GameplayCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9653188);
+gdjs.GameplayCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9655324);
 }
 }}
 if (gdjs.GameplayCode.condition1IsTrue_0.val) {
@@ -1438,12 +1408,121 @@ for(var i = 0, k = 0, l = gdjs.GameplayCode.GDBossObjects1.length;i<l;++i) {
 gdjs.GameplayCode.GDBossObjects1.length = k;}if ( gdjs.GameplayCode.condition0IsTrue_0.val ) {
 {
 {gdjs.GameplayCode.conditionTrue_1 = gdjs.GameplayCode.condition1IsTrue_0;
-gdjs.GameplayCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9771852);
+gdjs.GameplayCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9815604);
 }
 }}
 if (gdjs.GameplayCode.condition1IsTrue_0.val) {
 {runtimeScene.getVariables().getFromIndex(2).setNumber(0);
 }{runtimeScene.getVariables().getFromIndex(1).add(50);
+}{gdjs.evtTools.sound.playMusic(runtimeScene, "zapsplat_horror_voice_ghostly_vocalisation_12163.mp3", false, 30, 1);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("SkeletonEnemy"), gdjs.GameplayCode.GDSkeletonEnemyObjects1);
+
+gdjs.GameplayCode.condition0IsTrue_0.val = false;
+gdjs.GameplayCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.GameplayCode.GDSkeletonEnemyObjects1.length;i<l;++i) {
+    if ( gdjs.GameplayCode.GDSkeletonEnemyObjects1[i].isCurrentAnimationName("Dead") ) {
+        gdjs.GameplayCode.condition0IsTrue_0.val = true;
+        gdjs.GameplayCode.GDSkeletonEnemyObjects1[k] = gdjs.GameplayCode.GDSkeletonEnemyObjects1[i];
+        ++k;
+    }
+}
+gdjs.GameplayCode.GDSkeletonEnemyObjects1.length = k;}if ( gdjs.GameplayCode.condition0IsTrue_0.val ) {
+{
+{gdjs.GameplayCode.conditionTrue_1 = gdjs.GameplayCode.condition1IsTrue_0;
+gdjs.GameplayCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9659316);
+}
+}}
+if (gdjs.GameplayCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playMusic(runtimeScene, "zapsplat_horror_monster_agressive_short_growl_54463.mp3", false, 30, 1);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("GoblinEnemy"), gdjs.GameplayCode.GDGoblinEnemyObjects1);
+
+gdjs.GameplayCode.condition0IsTrue_0.val = false;
+gdjs.GameplayCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.GameplayCode.GDGoblinEnemyObjects1.length;i<l;++i) {
+    if ( gdjs.GameplayCode.GDGoblinEnemyObjects1[i].isCurrentAnimationName("Dead") ) {
+        gdjs.GameplayCode.condition0IsTrue_0.val = true;
+        gdjs.GameplayCode.GDGoblinEnemyObjects1[k] = gdjs.GameplayCode.GDGoblinEnemyObjects1[i];
+        ++k;
+    }
+}
+gdjs.GameplayCode.GDGoblinEnemyObjects1.length = k;}if ( gdjs.GameplayCode.condition0IsTrue_0.val ) {
+{
+{gdjs.GameplayCode.conditionTrue_1 = gdjs.GameplayCode.condition1IsTrue_0;
+gdjs.GameplayCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8538196);
+}
+}}
+if (gdjs.GameplayCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playMusic(runtimeScene, "soundbits_ScreamsShouts2_Monsters_Monster_Pain_Death_133.mp3", false, 30, 1);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("MushroomEnemy"), gdjs.GameplayCode.GDMushroomEnemyObjects1);
+
+gdjs.GameplayCode.condition0IsTrue_0.val = false;
+gdjs.GameplayCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.GameplayCode.GDMushroomEnemyObjects1.length;i<l;++i) {
+    if ( gdjs.GameplayCode.GDMushroomEnemyObjects1[i].isCurrentAnimationName("Dead") ) {
+        gdjs.GameplayCode.condition0IsTrue_0.val = true;
+        gdjs.GameplayCode.GDMushroomEnemyObjects1[k] = gdjs.GameplayCode.GDMushroomEnemyObjects1[i];
+        ++k;
+    }
+}
+gdjs.GameplayCode.GDMushroomEnemyObjects1.length = k;}if ( gdjs.GameplayCode.condition0IsTrue_0.val ) {
+{
+{gdjs.GameplayCode.conditionTrue_1 = gdjs.GameplayCode.condition1IsTrue_0;
+gdjs.GameplayCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8558732);
+}
+}}
+if (gdjs.GameplayCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playMusic(runtimeScene, "zapsplat_horror_monster_agressive_short_growl_throaty_54462.mp3", false, 30, 1);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("FlyingEyeEnemy"), gdjs.GameplayCode.GDFlyingEyeEnemyObjects1);
+
+gdjs.GameplayCode.condition0IsTrue_0.val = false;
+gdjs.GameplayCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.GameplayCode.GDFlyingEyeEnemyObjects1.length;i<l;++i) {
+    if ( gdjs.GameplayCode.GDFlyingEyeEnemyObjects1[i].isCurrentAnimationName("Dead") ) {
+        gdjs.GameplayCode.condition0IsTrue_0.val = true;
+        gdjs.GameplayCode.GDFlyingEyeEnemyObjects1[k] = gdjs.GameplayCode.GDFlyingEyeEnemyObjects1[i];
+        ++k;
+    }
+}
+gdjs.GameplayCode.GDFlyingEyeEnemyObjects1.length = k;}if ( gdjs.GameplayCode.condition0IsTrue_0.val ) {
+{
+{gdjs.GameplayCode.conditionTrue_1 = gdjs.GameplayCode.condition1IsTrue_0;
+gdjs.GameplayCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8594052);
+}
+}}
+if (gdjs.GameplayCode.condition1IsTrue_0.val) {
+{gdjs.evtTools.sound.playMusic(runtimeScene, "soundbits_ScreamsShouts2_Monsters_Monster_Roar_Growl_159.mp3", false, 30, 1);
 }}
 
 }
@@ -1457,79 +1536,60 @@ runtimeScene.getOnceTriggers().startNewFrame();
 gdjs.GameplayCode.GDPlayerObjects1.length = 0;
 gdjs.GameplayCode.GDPlayerObjects2.length = 0;
 gdjs.GameplayCode.GDPlayerObjects3.length = 0;
-gdjs.GameplayCode.GDPlayerObjects4.length = 0;
 gdjs.GameplayCode.GDTiledGrassPlatformObjects1.length = 0;
 gdjs.GameplayCode.GDTiledGrassPlatformObjects2.length = 0;
 gdjs.GameplayCode.GDTiledGrassPlatformObjects3.length = 0;
-gdjs.GameplayCode.GDTiledGrassPlatformObjects4.length = 0;
 gdjs.GameplayCode.GDSkeletonEnemyObjects1.length = 0;
 gdjs.GameplayCode.GDSkeletonEnemyObjects2.length = 0;
 gdjs.GameplayCode.GDSkeletonEnemyObjects3.length = 0;
-gdjs.GameplayCode.GDSkeletonEnemyObjects4.length = 0;
 gdjs.GameplayCode.GDFlyingEyeEnemyObjects1.length = 0;
 gdjs.GameplayCode.GDFlyingEyeEnemyObjects2.length = 0;
 gdjs.GameplayCode.GDFlyingEyeEnemyObjects3.length = 0;
-gdjs.GameplayCode.GDFlyingEyeEnemyObjects4.length = 0;
 gdjs.GameplayCode.GDTiledForestBackgroundObjects1.length = 0;
 gdjs.GameplayCode.GDTiledForestBackgroundObjects2.length = 0;
 gdjs.GameplayCode.GDTiledForestBackgroundObjects3.length = 0;
-gdjs.GameplayCode.GDTiledForestBackgroundObjects4.length = 0;
 gdjs.GameplayCode.GDHouseObjects1.length = 0;
 gdjs.GameplayCode.GDHouseObjects2.length = 0;
 gdjs.GameplayCode.GDHouseObjects3.length = 0;
-gdjs.GameplayCode.GDHouseObjects4.length = 0;
 gdjs.GameplayCode.GDArrowProjectileObjects1.length = 0;
 gdjs.GameplayCode.GDArrowProjectileObjects2.length = 0;
 gdjs.GameplayCode.GDArrowProjectileObjects3.length = 0;
-gdjs.GameplayCode.GDArrowProjectileObjects4.length = 0;
 gdjs.GameplayCode.GDDirtObjects1.length = 0;
 gdjs.GameplayCode.GDDirtObjects2.length = 0;
 gdjs.GameplayCode.GDDirtObjects3.length = 0;
-gdjs.GameplayCode.GDDirtObjects4.length = 0;
 gdjs.GameplayCode.GDGoblinEnemyObjects1.length = 0;
 gdjs.GameplayCode.GDGoblinEnemyObjects2.length = 0;
 gdjs.GameplayCode.GDGoblinEnemyObjects3.length = 0;
-gdjs.GameplayCode.GDGoblinEnemyObjects4.length = 0;
 gdjs.GameplayCode.GDMushroomEnemyObjects1.length = 0;
 gdjs.GameplayCode.GDMushroomEnemyObjects2.length = 0;
 gdjs.GameplayCode.GDMushroomEnemyObjects3.length = 0;
-gdjs.GameplayCode.GDMushroomEnemyObjects4.length = 0;
 gdjs.GameplayCode.GDHealthBarObjects1.length = 0;
 gdjs.GameplayCode.GDHealthBarObjects2.length = 0;
 gdjs.GameplayCode.GDHealthBarObjects3.length = 0;
-gdjs.GameplayCode.GDHealthBarObjects4.length = 0;
 gdjs.GameplayCode.GDeggObjects1.length = 0;
 gdjs.GameplayCode.GDeggObjects2.length = 0;
 gdjs.GameplayCode.GDeggObjects3.length = 0;
-gdjs.GameplayCode.GDeggObjects4.length = 0;
 gdjs.GameplayCode.GDHomeButtonObjects1.length = 0;
 gdjs.GameplayCode.GDHomeButtonObjects2.length = 0;
 gdjs.GameplayCode.GDHomeButtonObjects3.length = 0;
-gdjs.GameplayCode.GDHomeButtonObjects4.length = 0;
 gdjs.GameplayCode.GDScoreTextObjects1.length = 0;
 gdjs.GameplayCode.GDScoreTextObjects2.length = 0;
 gdjs.GameplayCode.GDScoreTextObjects3.length = 0;
-gdjs.GameplayCode.GDScoreTextObjects4.length = 0;
 gdjs.GameplayCode.GDHighScoreObjects1.length = 0;
 gdjs.GameplayCode.GDHighScoreObjects2.length = 0;
 gdjs.GameplayCode.GDHighScoreObjects3.length = 0;
-gdjs.GameplayCode.GDHighScoreObjects4.length = 0;
 gdjs.GameplayCode.GDBossObjects1.length = 0;
 gdjs.GameplayCode.GDBossObjects2.length = 0;
 gdjs.GameplayCode.GDBossObjects3.length = 0;
-gdjs.GameplayCode.GDBossObjects4.length = 0;
 gdjs.GameplayCode.GDBossSummonObjects1.length = 0;
 gdjs.GameplayCode.GDBossSummonObjects2.length = 0;
 gdjs.GameplayCode.GDBossSummonObjects3.length = 0;
-gdjs.GameplayCode.GDBossSummonObjects4.length = 0;
 gdjs.GameplayCode.GDPlatformObjects1.length = 0;
 gdjs.GameplayCode.GDPlatformObjects2.length = 0;
 gdjs.GameplayCode.GDPlatformObjects3.length = 0;
-gdjs.GameplayCode.GDPlatformObjects4.length = 0;
 gdjs.GameplayCode.GDHealthTextObjects1.length = 0;
 gdjs.GameplayCode.GDHealthTextObjects2.length = 0;
 gdjs.GameplayCode.GDHealthTextObjects3.length = 0;
-gdjs.GameplayCode.GDHealthTextObjects4.length = 0;
 
 gdjs.GameplayCode.eventsList10(runtimeScene);
 return;
