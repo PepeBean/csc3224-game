@@ -3053,6 +3053,42 @@
         "name": "BossSummon-4-0.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "zapsplat_horror_monster_agressive_short_growl_54463.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "zapsplat_horror_monster_agressive_short_growl_54463.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "zapsplat_horror_monster_agressive_short_growl_throaty_54462.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "zapsplat_horror_monster_agressive_short_growl_throaty_54462.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "soundbits_ScreamsShouts2_Monsters_Monster_Roar_Growl_159.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "soundbits_ScreamsShouts2_Monsters_Monster_Roar_Growl_159.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "zapsplat_horror_voice_ghostly_vocalisation_12163.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "zapsplat_horror_voice_ghostly_vocalisation_12163.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4031,7 +4067,7 @@
         "gridWidth": 70,
         "snap": true,
         "windowMask": true,
-        "zoomFactor": 0.432
+        "zoomFactor": 0.4214
       },
       "objectsGroups": [
         {
@@ -7339,20 +7375,20 @@
           ],
           "behaviors": [
             {
+              "ignoreDefaultControls": true,
+              "jumpSustainTime": 0,
               "name": "PlatformerObject",
+              "roundCoordinates": false,
+              "slopeMaxAngle": 0,
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "maxSpeed": 75,
               "acceleration": 1500,
               "canGrabPlatforms": false,
               "deceleration": 1500,
               "gravity": 0,
-              "ignoreDefaultControls": false,
               "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
-              "roundCoordinates": true,
-              "slopeMaxAngle": 60,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
             },
@@ -8760,6 +8796,12 @@
           "variables": [],
           "behaviors": [
             {
+              "extraBorder": 0,
+              "name": "DestroyOutside",
+              "type": "DestroyOutsideBehavior::DestroyOutside"
+            },
+            {
+              "ignoreDefaultControls": true,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "ladderClimbingSpeed": 150,
@@ -8768,7 +8810,6 @@
               "canGrabPlatforms": false,
               "deceleration": 1500,
               "gravity": 0,
-              "ignoreDefaultControls": false,
               "jumpSpeed": 600,
               "jumpSustainTime": 0.2,
               "maxFallingSpeed": 700,
@@ -10423,6 +10464,18 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "InvincibilityCheat",
+                "=",
+                "-1"
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -10482,6 +10535,14 @@
               "subInstructions": []
             }
           ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
           "events": []
         },
         {
@@ -10993,38 +11054,6 @@
                       "parameters": [
                         "Player",
                         "\"Idle\""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlatformBehavior::IsMoving"
-                      },
-                      "parameters": [
-                        "Player",
-                        "PlatformerObject"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SetAnimationName"
-                      },
-                      "parameters": [
-                        "Player",
-                        "\"Running\""
                       ],
                       "subInstructions": []
                     }
@@ -14060,20 +14089,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlayMusic"
-                  },
-                  "parameters": [
-                    "",
-                    "soundbits_ScreamsShouts2_Monsters_Monster_Pain_Death_133.mp3",
-                    "",
-                    "30",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "ModVarScene"
                   },
                   "parameters": [
@@ -14199,6 +14214,192 @@
                 "Score",
                 "+",
                 "50"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "zapsplat_horror_voice_ghostly_vocalisation_12163.mp3",
+                "",
+                "30",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "SkeletonEnemy",
+                "\"Dead\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "zapsplat_horror_monster_agressive_short_growl_54463.mp3",
+                "",
+                "30",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "GoblinEnemy",
+                "\"Dead\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "soundbits_ScreamsShouts2_Monsters_Monster_Pain_Death_133.mp3",
+                "",
+                "30",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "MushroomEnemy",
+                "\"Dead\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "zapsplat_horror_monster_agressive_short_growl_throaty_54462.mp3",
+                "",
+                "30",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "FlyingEyeEnemy",
+                "\"Dead\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "soundbits_ScreamsShouts2_Monsters_Monster_Roar_Growl_159.mp3",
+                "",
+                "30",
+                ""
               ],
               "subInstructions": []
             }
