@@ -27,12 +27,6 @@ gdjs.ControlsCode.GDMushroomTextObjects1= [];
 gdjs.ControlsCode.GDMushroomTextObjects2= [];
 gdjs.ControlsCode.GDInstructionObjects1= [];
 gdjs.ControlsCode.GDInstructionObjects2= [];
-gdjs.ControlsCode.GDBossObjects1= [];
-gdjs.ControlsCode.GDBossObjects2= [];
-gdjs.ControlsCode.GDBossTextObjects1= [];
-gdjs.ControlsCode.GDBossTextObjects2= [];
-gdjs.ControlsCode.GDBossSummonObjects1= [];
-gdjs.ControlsCode.GDBossSummonObjects2= [];
 
 gdjs.ControlsCode.conditionTrue_0 = {val:false};
 gdjs.ControlsCode.condition0IsTrue_0 = {val:false};
@@ -87,12 +81,6 @@ gdjs.ControlsCode.GDMushroomTextObjects1.length = 0;
 gdjs.ControlsCode.GDMushroomTextObjects2.length = 0;
 gdjs.ControlsCode.GDInstructionObjects1.length = 0;
 gdjs.ControlsCode.GDInstructionObjects2.length = 0;
-gdjs.ControlsCode.GDBossObjects1.length = 0;
-gdjs.ControlsCode.GDBossObjects2.length = 0;
-gdjs.ControlsCode.GDBossTextObjects1.length = 0;
-gdjs.ControlsCode.GDBossTextObjects2.length = 0;
-gdjs.ControlsCode.GDBossSummonObjects1.length = 0;
-gdjs.ControlsCode.GDBossSummonObjects2.length = 0;
 
 gdjs.ControlsCode.eventsList0(runtimeScene);
 return;

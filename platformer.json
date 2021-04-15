@@ -20,7 +20,7 @@
     "author": "Pepe Bean",
     "windowWidth": 800,
     "windowHeight": 600,
-    "latestCompilationDirectory": "/home/pepe/csc3224-game/docs",
+    "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -462,8 +462,6 @@
         "kind": "audio",
         "metadata": "",
         "name": "life lost sound.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -1760,6 +1758,15 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "NewObject-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "NewObject-1-4.png",
         "kind": "image",
         "metadata": "",
@@ -1853,8 +1860,6 @@
         "kind": "audio",
         "metadata": "",
         "name": "zapsplat_warfare_bow_arrow_release_002_15477.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -1862,8 +1867,6 @@
         "kind": "audio",
         "metadata": "",
         "name": "music_orlamusic_Epic+010.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -1871,8 +1874,6 @@
         "kind": "audio",
         "metadata": "",
         "name": "soundbits_ScreamsShouts2_Monsters_Monster_Pain_Death_133.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -1908,6 +1909,15 @@
         "kind": "image",
         "metadata": "",
         "name": "Dirt.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-0.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -2045,1014 +2055,6 @@
         "name": "HealthBar-1.png",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Home-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Home-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../Downloads/Undead executioner puppet/png/idle2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "../Downloads/Undead executioner puppet/png/idle2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Death-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Death-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Death-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Death-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Death-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Death-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Death-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Death-4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Death-5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Death-5.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Death-6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Death-6.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Death-7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Death-7.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Death-8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Death-8.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Death-9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Death-9.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Death-10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Death-10.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Death-11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Death-11.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Death-12.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Death-12.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Death-13.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Death-13.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Death-14.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Death-14.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Death-15.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Death-15.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Death-16.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Death-16.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Death-17.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Death-17.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Death-18.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Death-18.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Boss-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Boss-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Boss-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Boss-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Boss-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Boss-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Boss-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Boss-4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Boss-5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Boss-5.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../Downloads/Undead executioner puppet/png/idle2-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "../Downloads/Undead executioner puppet/png/idle2-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../Downloads/Undead executioner puppet/png/idle2-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "../Downloads/Undead executioner puppet/png/idle2-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../Downloads/Undead executioner puppet/png/idle2-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "../Downloads/Undead executioner puppet/png/idle2-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../Downloads/Undead executioner puppet/png/idle2-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "../Downloads/Undead executioner puppet/png/idle2-4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../Downloads/Undead executioner puppet/png/idle2-5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "../Downloads/Undead executioner puppet/png/idle2-5.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../Downloads/Undead executioner puppet/png/idle2-6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "../Downloads/Undead executioner puppet/png/idle2-6.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../Downloads/Undead executioner puppet/png/idle2-7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "../Downloads/Undead executioner puppet/png/idle2-7.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../Downloads/Undead executioner puppet/png/idle2-8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "../Downloads/Undead executioner puppet/png/idle2-8.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "teleport-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "teleport-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "teleport-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "teleport-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "teleport-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "teleport-3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "teleport-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "teleport-4.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "teleport-5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "teleport-5.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "teleport-6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "teleport-6.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "teleport-7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "teleport-7.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "teleport-8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "teleport-8.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "teleport-9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "teleport-9.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "teleport-10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "teleport-10.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "teleport-11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "teleport-11.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "teleport-12.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "teleport-12.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "BossSummon-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "BossSummon-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "BossSummon-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "BossSummon-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "BossSummon-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "BossSummon-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "BossSummon-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "BossSummon-4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "BossSummon-5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "BossSummon-5.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject-1-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-1-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject-2-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-2-4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject-3-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-3-4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject-4-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-4-4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-1-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject-2-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-2-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject-3-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-3-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject-4-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-4-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject-5-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-5-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject-6-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-6-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "TeleportEnd-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "TeleportEnd-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "TeleportEnd-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "TeleportEnd-2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "TeleportEnd-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "TeleportEnd-3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "TeleportEnd-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "TeleportEnd-4.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-5.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-6.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-7.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-8.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-9.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-10.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-11.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-12.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-12.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-13.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-13.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-14.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-14.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-15.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-15.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-16.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-16.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-17.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-17.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-18.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-18.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-19.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-19.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-20.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-20.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-21.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-21.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-22.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-22.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-23.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-23.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-24.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-24.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-25.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-25.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-26.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-26.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-27.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-27.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-28.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-28.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-29.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-29.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-30.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-30.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-31.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-31.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-32.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-32.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-33.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-33.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-34.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-34.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-35.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-35.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Platform-36.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Platform-36.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Idle-1-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Idle-1-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Idle-2-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Idle-2-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Idle-3-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Idle-3-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Idle-4-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Idle-4-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Idle-5-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Idle-5-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Idle-6-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Idle-6-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Idle-7-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Idle-7-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Idle-8-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Idle-8-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "BossSummon-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "BossSummon-1-0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "BossSummon-2-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "BossSummon-2-0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "BossSummon-3-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "BossSummon-3-0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "BossSummon-4-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "BossSummon-4-0.png",
-        "smoothed": true,
-        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3062,12 +2064,10 @@
   "variables": [
     {
       "name": "InvincibilityCheat",
-      "type": "string",
       "value": "-1"
     },
     {
       "name": "MovementCheat",
-      "type": "string",
       "value": "-1"
     }
   ],
@@ -3093,7 +2093,6 @@
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridR": 158,
-        "gridType": "rectangular",
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
@@ -4027,11 +3026,10 @@
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridR": 158,
-        "gridType": "rectangular",
         "gridWidth": 70,
         "snap": true,
         "windowMask": true,
-        "zoomFactor": 0.432
+        "zoomFactor": 0.4566
       },
       "objectsGroups": [
         {
@@ -4048,33 +3046,18 @@
             },
             {
               "name": "GoblinEnemy"
-            },
-            {
-              "name": "Boss"
             }
           ]
+        },
+        {
+          "name": "VirtualControls",
+          "objects": []
         }
       ],
       "variables": [
         {
           "name": "EnemyNum",
-          "type": "string",
           "value": "1"
-        },
-        {
-          "name": "Score",
-          "type": "string",
-          "value": "0"
-        },
-        {
-          "name": "BossPhase",
-          "type": "string",
-          "value": "0"
-        },
-        {
-          "name": "HighScore",
-          "type": "string",
-          "value": "0"
         }
       ],
       "instances": [
@@ -4087,7 +3070,7 @@
           "name": "Player",
           "persistentUuid": "788c041d-1b63-42b6-a22a-e95262a08f83",
           "width": 168,
-          "x": -283,
+          "x": -290,
           "y": 525,
           "zOrder": 20,
           "numberProperties": [],
@@ -4136,22 +3119,37 @@
           "persistentUuid": "3d5390b3-6b54-4df4-a2e5-7b106dff1507",
           "width": 612,
           "x": -865,
-          "y": 29,
+          "y": 31,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
             {
               "name": "HouseHealth",
-              "type": "string",
               "value": "10"
             }
           ]
         },
         {
           "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Jumpthru",
+          "persistentUuid": "92de5702-01f4-40f6-a649-59695b93dd38",
+          "width": 0,
+          "x": -237,
+          "y": 472,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
           "customSize": true,
-          "height": 410,
+          "height": 346,
           "layer": "",
           "locked": false,
           "name": "Dirt",
@@ -4166,15 +3164,31 @@
         },
         {
           "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Jumpthru",
+          "persistentUuid": "7225c160-2dbb-43e5-927e-313361b1d4d2",
+          "width": 0,
+          "x": -241,
+          "y": 269,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
           "customSize": true,
-          "height": 23,
-          "layer": "GUI",
+          "height": 39,
+          "layer": "",
           "locked": false,
           "name": "HealthBar",
           "persistentUuid": "71070e44-ef18-4d24-b40c-d21970c91bad",
-          "width": 202,
-          "x": 251,
-          "y": 15,
+          "width": 442,
+          "x": -680,
+          "y": -51,
           "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
@@ -4205,89 +3219,9 @@
           "name": "HomeButton",
           "persistentUuid": "7bca39d8-73f0-4b4f-924c-417883b015da",
           "width": 78,
-          "x": 708,
-          "y": 11,
+          "x": 673,
+          "y": 18,
           "zOrder": 45,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "GUI",
-          "locked": false,
-          "name": "ScoreText",
-          "persistentUuid": "fb350127-037e-4816-a59f-644b0ce09c88",
-          "width": 0,
-          "x": 19,
-          "y": 44,
-          "zOrder": 46,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "GUI",
-          "locked": false,
-          "name": "HighScore",
-          "persistentUuid": "9358d7ab-cde4-4de3-b2dc-c7058070d66d",
-          "width": 0,
-          "x": 18,
-          "y": 11,
-          "zOrder": 47,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 16,
-          "layer": "",
-          "locked": false,
-          "name": "Platform",
-          "persistentUuid": "905fdb2b-34bc-4f5d-8441-ffc788162e5d",
-          "width": 157,
-          "x": -271,
-          "y": 283,
-          "zOrder": 48,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 16,
-          "layer": "",
-          "locked": false,
-          "name": "Platform",
-          "persistentUuid": "8185efbe-0e5c-42d2-885c-6b8238f420bb",
-          "width": 157,
-          "x": -273,
-          "y": 475,
-          "zOrder": 48,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "GUI",
-          "locked": false,
-          "name": "HealthText",
-          "persistentUuid": "eb6b68d3-64ba-41b0-8b92-4f1ead7790a0",
-          "width": 0,
-          "x": 402,
-          "y": 50,
-          "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4299,13 +3233,7 @@
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": true,
-          "variables": [
-            {
-              "name": "Disabled",
-              "type": "string",
-              "value": "0"
-            }
-          ],
+          "variables": [],
           "behaviors": [
             {
               "name": "PlatformerObject",
@@ -4341,8 +3269,8 @@
                       "points": [
                         {
                           "name": "Bow",
-                          "x": 47.312400817871094,
-                          "y": 25.35890007019043
+                          "x": 47.3124,
+                          "y": 25.3589
                         }
                       ],
                       "originPoint": {
@@ -4359,20 +3287,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 23.875499725341797,
-                            "y": 16.274900436401367
+                            "x": 23.8755,
+                            "y": 16.2749
                           },
                           {
-                            "x": 39.24620056152344,
-                            "y": 16.274900436401367
+                            "x": 39.2462,
+                            "y": 16.2749
                           },
                           {
-                            "x": 40.150299072265625,
-                            "y": 49.72880172729492
+                            "x": 40.1503,
+                            "y": 49.7288
                           },
                           {
-                            "x": 24.779600143432617,
-                            "y": 51.53710174560547
+                            "x": 24.7796,
+                            "y": 51.5371
                           }
                         ]
                       ]
@@ -4383,8 +3311,8 @@
                       "points": [
                         {
                           "name": "Bow",
-                          "x": 47.312400817871094,
-                          "y": 25.35890007019043
+                          "x": 47.3124,
+                          "y": 25.3589
                         }
                       ],
                       "originPoint": {
@@ -4401,20 +3329,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 23.875499725341797,
-                            "y": 16.274900436401367
+                            "x": 23.8755,
+                            "y": 16.2749
                           },
                           {
-                            "x": 39.24620056152344,
-                            "y": 16.274900436401367
+                            "x": 39.2462,
+                            "y": 16.2749
                           },
                           {
-                            "x": 40.150299072265625,
-                            "y": 49.72880172729492
+                            "x": 40.1503,
+                            "y": 49.7288
                           },
                           {
-                            "x": 24.779600143432617,
-                            "y": 51.53710174560547
+                            "x": 24.7796,
+                            "y": 51.5371
                           }
                         ]
                       ]
@@ -4437,8 +3365,8 @@
                       "points": [
                         {
                           "name": "Bow",
-                          "x": 47.312400817871094,
-                          "y": 25.35890007019043
+                          "x": 47.3124,
+                          "y": 25.3589
                         }
                       ],
                       "originPoint": {
@@ -4455,20 +3383,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 23.875499725341797,
-                            "y": 16.274900436401367
+                            "x": 23.8755,
+                            "y": 16.2749
                           },
                           {
-                            "x": 39.24620056152344,
-                            "y": 16.274900436401367
+                            "x": 39.2462,
+                            "y": 16.2749
                           },
                           {
-                            "x": 40.150299072265625,
-                            "y": 49.72880172729492
+                            "x": 40.1503,
+                            "y": 49.7288
                           },
                           {
-                            "x": 24.779600143432617,
-                            "y": 51.53710174560547
+                            "x": 24.7796,
+                            "y": 51.5371
                           }
                         ]
                       ]
@@ -4479,8 +3407,8 @@
                       "points": [
                         {
                           "name": "Bow",
-                          "x": 47.312400817871094,
-                          "y": 25.35890007019043
+                          "x": 47.3124,
+                          "y": 25.3589
                         }
                       ],
                       "originPoint": {
@@ -4497,20 +3425,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 23.875499725341797,
-                            "y": 16.274900436401367
+                            "x": 23.8755,
+                            "y": 16.2749
                           },
                           {
-                            "x": 39.24620056152344,
-                            "y": 16.274900436401367
+                            "x": 39.2462,
+                            "y": 16.2749
                           },
                           {
-                            "x": 40.150299072265625,
-                            "y": 49.72880172729492
+                            "x": 40.1503,
+                            "y": 49.7288
                           },
                           {
-                            "x": 24.779600143432617,
-                            "y": 51.53710174560547
+                            "x": 24.7796,
+                            "y": 51.5371
                           }
                         ]
                       ]
@@ -4521,8 +3449,8 @@
                       "points": [
                         {
                           "name": "Bow",
-                          "x": 47.312400817871094,
-                          "y": 25.35890007019043
+                          "x": 47.3124,
+                          "y": 25.3589
                         }
                       ],
                       "originPoint": {
@@ -4539,20 +3467,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 23.875499725341797,
-                            "y": 16.274900436401367
+                            "x": 23.8755,
+                            "y": 16.2749
                           },
                           {
-                            "x": 39.24620056152344,
-                            "y": 16.274900436401367
+                            "x": 39.2462,
+                            "y": 16.2749
                           },
                           {
-                            "x": 40.150299072265625,
-                            "y": 49.72880172729492
+                            "x": 40.1503,
+                            "y": 49.7288
                           },
                           {
-                            "x": 24.779600143432617,
-                            "y": 51.53710174560547
+                            "x": 24.7796,
+                            "y": 51.5371
                           }
                         ]
                       ]
@@ -4563,8 +3491,8 @@
                       "points": [
                         {
                           "name": "Bow",
-                          "x": 47.312400817871094,
-                          "y": 25.35890007019043
+                          "x": 47.3124,
+                          "y": 25.3589
                         }
                       ],
                       "originPoint": {
@@ -4581,20 +3509,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 23.875499725341797,
-                            "y": 16.274900436401367
+                            "x": 23.8755,
+                            "y": 16.2749
                           },
                           {
-                            "x": 39.24620056152344,
-                            "y": 16.274900436401367
+                            "x": 39.2462,
+                            "y": 16.2749
                           },
                           {
-                            "x": 40.150299072265625,
-                            "y": 49.72880172729492
+                            "x": 40.1503,
+                            "y": 49.7288
                           },
                           {
-                            "x": 24.779600143432617,
-                            "y": 51.53710174560547
+                            "x": 24.7796,
+                            "y": 51.5371
                           }
                         ]
                       ]
@@ -4605,8 +3533,8 @@
                       "points": [
                         {
                           "name": "Bow",
-                          "x": 47.312400817871094,
-                          "y": 25.35890007019043
+                          "x": 47.3124,
+                          "y": 25.3589
                         }
                       ],
                       "originPoint": {
@@ -4623,20 +3551,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 23.875499725341797,
-                            "y": 16.274900436401367
+                            "x": 23.8755,
+                            "y": 16.2749
                           },
                           {
-                            "x": 39.24620056152344,
-                            "y": 16.274900436401367
+                            "x": 39.2462,
+                            "y": 16.2749
                           },
                           {
-                            "x": 40.150299072265625,
-                            "y": 49.72880172729492
+                            "x": 40.1503,
+                            "y": 49.7288
                           },
                           {
-                            "x": 24.779600143432617,
-                            "y": 51.53710174560547
+                            "x": 24.7796,
+                            "y": 51.5371
                           }
                         ]
                       ]
@@ -4647,8 +3575,8 @@
                       "points": [
                         {
                           "name": "Bow",
-                          "x": 47.312400817871094,
-                          "y": 25.35890007019043
+                          "x": 47.3124,
+                          "y": 25.3589
                         }
                       ],
                       "originPoint": {
@@ -4665,20 +3593,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 23.875499725341797,
-                            "y": 16.274900436401367
+                            "x": 23.8755,
+                            "y": 16.2749
                           },
                           {
-                            "x": 39.24620056152344,
-                            "y": 16.274900436401367
+                            "x": 39.2462,
+                            "y": 16.2749
                           },
                           {
-                            "x": 40.150299072265625,
-                            "y": 49.72880172729492
+                            "x": 40.1503,
+                            "y": 49.7288
                           },
                           {
-                            "x": 24.779600143432617,
-                            "y": 51.53710174560547
+                            "x": 24.7796,
+                            "y": 51.5371
                           }
                         ]
                       ]
@@ -4689,8 +3617,8 @@
                       "points": [
                         {
                           "name": "Bow",
-                          "x": 47.312400817871094,
-                          "y": 25.35890007019043
+                          "x": 47.3124,
+                          "y": 25.3589
                         }
                       ],
                       "originPoint": {
@@ -4707,20 +3635,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 23.875499725341797,
-                            "y": 16.274900436401367
+                            "x": 23.8755,
+                            "y": 16.2749
                           },
                           {
-                            "x": 39.24620056152344,
-                            "y": 16.274900436401367
+                            "x": 39.2462,
+                            "y": 16.2749
                           },
                           {
-                            "x": 40.150299072265625,
-                            "y": 49.72880172729492
+                            "x": 40.1503,
+                            "y": 49.7288
                           },
                           {
-                            "x": 24.779600143432617,
-                            "y": 51.53710174560547
+                            "x": 24.7796,
+                            "y": 51.5371
                           }
                         ]
                       ]
@@ -4731,8 +3659,8 @@
                       "points": [
                         {
                           "name": "Bow",
-                          "x": 47.312400817871094,
-                          "y": 25.35890007019043
+                          "x": 47.3124,
+                          "y": 25.3589
                         }
                       ],
                       "originPoint": {
@@ -4749,20 +3677,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 23.875499725341797,
-                            "y": 16.274900436401367
+                            "x": 23.8755,
+                            "y": 16.2749
                           },
                           {
-                            "x": 39.24620056152344,
-                            "y": 16.274900436401367
+                            "x": 39.2462,
+                            "y": 16.2749
                           },
                           {
-                            "x": 40.150299072265625,
-                            "y": 49.72880172729492
+                            "x": 40.1503,
+                            "y": 49.7288
                           },
                           {
-                            "x": 24.779600143432617,
-                            "y": 51.53710174560547
+                            "x": 24.7796,
+                            "y": 51.5371
                           }
                         ]
                       ]
@@ -4773,8 +3701,8 @@
                       "points": [
                         {
                           "name": "Bow",
-                          "x": 47.312400817871094,
-                          "y": 25.35890007019043
+                          "x": 47.3124,
+                          "y": 25.3589
                         }
                       ],
                       "originPoint": {
@@ -4791,20 +3719,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 23.875499725341797,
-                            "y": 16.274900436401367
+                            "x": 23.8755,
+                            "y": 16.2749
                           },
                           {
-                            "x": 39.24620056152344,
-                            "y": 16.274900436401367
+                            "x": 39.2462,
+                            "y": 16.2749
                           },
                           {
-                            "x": 40.150299072265625,
-                            "y": 49.72880172729492
+                            "x": 40.1503,
+                            "y": 49.7288
                           },
                           {
-                            "x": 24.779600143432617,
-                            "y": 51.53710174560547
+                            "x": 24.7796,
+                            "y": 51.5371
                           }
                         ]
                       ]
@@ -4815,8 +3743,8 @@
                       "points": [
                         {
                           "name": "Bow",
-                          "x": 47.312400817871094,
-                          "y": 25.35890007019043
+                          "x": 47.3124,
+                          "y": 25.3589
                         }
                       ],
                       "originPoint": {
@@ -4833,20 +3761,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 23.875499725341797,
-                            "y": 16.274900436401367
+                            "x": 23.8755,
+                            "y": 16.2749
                           },
                           {
-                            "x": 39.24620056152344,
-                            "y": 16.274900436401367
+                            "x": 39.2462,
+                            "y": 16.2749
                           },
                           {
-                            "x": 40.150299072265625,
-                            "y": 49.72880172729492
+                            "x": 40.1503,
+                            "y": 49.7288
                           },
                           {
-                            "x": 24.779600143432617,
-                            "y": 51.53710174560547
+                            "x": 24.7796,
+                            "y": 51.5371
                           }
                         ]
                       ]
@@ -4869,8 +3797,8 @@
                       "points": [
                         {
                           "name": "Bow",
-                          "x": 47.312400817871094,
-                          "y": 25.35890007019043
+                          "x": 47.3124,
+                          "y": 25.3589
                         }
                       ],
                       "originPoint": {
@@ -4887,20 +3815,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 23.875499725341797,
-                            "y": 16.274900436401367
+                            "x": 23.8755,
+                            "y": 16.2749
                           },
                           {
-                            "x": 39.24620056152344,
-                            "y": 16.274900436401367
+                            "x": 39.2462,
+                            "y": 16.2749
                           },
                           {
-                            "x": 40.150299072265625,
-                            "y": 49.72880172729492
+                            "x": 40.1503,
+                            "y": 49.7288
                           },
                           {
-                            "x": 24.779600143432617,
-                            "y": 51.53710174560547
+                            "x": 24.7796,
+                            "y": 51.5371
                           }
                         ]
                       ]
@@ -4911,8 +3839,8 @@
                       "points": [
                         {
                           "name": "Bow",
-                          "x": 47.312400817871094,
-                          "y": 25.35890007019043
+                          "x": 47.3124,
+                          "y": 25.3589
                         }
                       ],
                       "originPoint": {
@@ -4929,20 +3857,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 23.875499725341797,
-                            "y": 16.274900436401367
+                            "x": 23.8755,
+                            "y": 16.2749
                           },
                           {
-                            "x": 39.24620056152344,
-                            "y": 16.274900436401367
+                            "x": 39.2462,
+                            "y": 16.2749
                           },
                           {
-                            "x": 40.150299072265625,
-                            "y": 49.72880172729492
+                            "x": 40.1503,
+                            "y": 49.7288
                           },
                           {
-                            "x": 24.779600143432617,
-                            "y": 51.53710174560547
+                            "x": 24.7796,
+                            "y": 51.5371
                           }
                         ]
                       ]
@@ -4953,8 +3881,8 @@
                       "points": [
                         {
                           "name": "Bow",
-                          "x": 47.312400817871094,
-                          "y": 25.35890007019043
+                          "x": 47.3124,
+                          "y": 25.3589
                         }
                       ],
                       "originPoint": {
@@ -4971,20 +3899,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 23.875499725341797,
-                            "y": 16.274900436401367
+                            "x": 23.8755,
+                            "y": 16.2749
                           },
                           {
-                            "x": 39.24620056152344,
-                            "y": 16.274900436401367
+                            "x": 39.2462,
+                            "y": 16.2749
                           },
                           {
-                            "x": 40.150299072265625,
-                            "y": 49.72880172729492
+                            "x": 40.1503,
+                            "y": 49.7288
                           },
                           {
-                            "x": 24.779600143432617,
-                            "y": 51.53710174560547
+                            "x": 24.7796,
+                            "y": 51.5371
                           }
                         ]
                       ]
@@ -4995,8 +3923,8 @@
                       "points": [
                         {
                           "name": "Bow",
-                          "x": 47.312400817871094,
-                          "y": 25.35890007019043
+                          "x": 47.3124,
+                          "y": 25.3589
                         }
                       ],
                       "originPoint": {
@@ -5013,20 +3941,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 23.875499725341797,
-                            "y": 16.274900436401367
+                            "x": 23.8755,
+                            "y": 16.2749
                           },
                           {
-                            "x": 39.24620056152344,
-                            "y": 16.274900436401367
+                            "x": 39.2462,
+                            "y": 16.2749
                           },
                           {
-                            "x": 40.150299072265625,
-                            "y": 49.72880172729492
+                            "x": 40.1503,
+                            "y": 49.7288
                           },
                           {
-                            "x": 24.779600143432617,
-                            "y": 51.53710174560547
+                            "x": 24.7796,
+                            "y": 51.5371
                           }
                         ]
                       ]
@@ -5037,8 +3965,8 @@
                       "points": [
                         {
                           "name": "Bow",
-                          "x": 47.312400817871094,
-                          "y": 25.35890007019043
+                          "x": 47.3124,
+                          "y": 25.3589
                         }
                       ],
                       "originPoint": {
@@ -5055,20 +3983,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 23.875499725341797,
-                            "y": 16.274900436401367
+                            "x": 23.8755,
+                            "y": 16.2749
                           },
                           {
-                            "x": 39.24620056152344,
-                            "y": 16.274900436401367
+                            "x": 39.2462,
+                            "y": 16.2749
                           },
                           {
-                            "x": 40.150299072265625,
-                            "y": 49.72880172729492
+                            "x": 40.1503,
+                            "y": 49.7288
                           },
                           {
-                            "x": 24.779600143432617,
-                            "y": 51.53710174560547
+                            "x": 24.7796,
+                            "y": 51.5371
                           }
                         ]
                       ]
@@ -5079,8 +4007,8 @@
                       "points": [
                         {
                           "name": "Bow",
-                          "x": 47.312400817871094,
-                          "y": 25.35890007019043
+                          "x": 47.3124,
+                          "y": 25.3589
                         }
                       ],
                       "originPoint": {
@@ -5097,20 +4025,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 23.875499725341797,
-                            "y": 16.274900436401367
+                            "x": 23.8755,
+                            "y": 16.2749
                           },
                           {
-                            "x": 39.24620056152344,
-                            "y": 16.274900436401367
+                            "x": 39.2462,
+                            "y": 16.2749
                           },
                           {
-                            "x": 40.150299072265625,
-                            "y": 49.72880172729492
+                            "x": 40.1503,
+                            "y": 49.7288
                           },
                           {
-                            "x": 24.779600143432617,
-                            "y": 51.53710174560547
+                            "x": 24.7796,
+                            "y": 51.5371
                           }
                         ]
                       ]
@@ -5121,8 +4049,8 @@
                       "points": [
                         {
                           "name": "Bow",
-                          "x": 47.312400817871094,
-                          "y": 25.35890007019043
+                          "x": 47.3124,
+                          "y": 25.3589
                         }
                       ],
                       "originPoint": {
@@ -5139,20 +4067,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 23.875499725341797,
-                            "y": 16.274900436401367
+                            "x": 23.8755,
+                            "y": 16.2749
                           },
                           {
-                            "x": 39.24620056152344,
-                            "y": 16.274900436401367
+                            "x": 39.2462,
+                            "y": 16.2749
                           },
                           {
-                            "x": 40.150299072265625,
-                            "y": 49.72880172729492
+                            "x": 40.1503,
+                            "y": 49.7288
                           },
                           {
-                            "x": 24.779600143432617,
-                            "y": 51.53710174560547
+                            "x": 24.7796,
+                            "y": 51.5371
                           }
                         ]
                       ]
@@ -5163,8 +4091,8 @@
                       "points": [
                         {
                           "name": "Bow",
-                          "x": 47.312400817871094,
-                          "y": 25.35890007019043
+                          "x": 47.3124,
+                          "y": 25.3589
                         }
                       ],
                       "originPoint": {
@@ -5181,20 +4109,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 23.875499725341797,
-                            "y": 16.274900436401367
+                            "x": 23.8755,
+                            "y": 16.2749
                           },
                           {
-                            "x": 39.24620056152344,
-                            "y": 16.274900436401367
+                            "x": 39.2462,
+                            "y": 16.2749
                           },
                           {
-                            "x": 40.150299072265625,
-                            "y": 49.72880172729492
+                            "x": 40.1503,
+                            "y": 49.7288
                           },
                           {
-                            "x": 24.779600143432617,
-                            "y": 51.53710174560547
+                            "x": 24.7796,
+                            "y": 51.5371
                           }
                         ]
                       ]
@@ -5205,8 +4133,8 @@
                       "points": [
                         {
                           "name": "Bow",
-                          "x": 47.312400817871094,
-                          "y": 25.35890007019043
+                          "x": 47.3124,
+                          "y": 25.3589
                         }
                       ],
                       "originPoint": {
@@ -5223,20 +4151,86 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 23.875499725341797,
-                            "y": 16.274900436401367
+                            "x": 23.8755,
+                            "y": 16.2749
                           },
                           {
-                            "x": 39.24620056152344,
-                            "y": 16.274900436401367
+                            "x": 39.2462,
+                            "y": 16.2749
                           },
                           {
-                            "x": 40.150299072265625,
-                            "y": 49.72880172729492
+                            "x": 40.1503,
+                            "y": 49.7288
                           },
                           {
-                            "x": 24.779600143432617,
-                            "y": 51.53710174560547
+                            "x": 24.7796,
+                            "y": 51.5371
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jumpthru",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": true,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Jumpthru",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "bridgeLogs.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
                           }
                         ]
                       ]
@@ -5273,15 +4267,14 @@
           "variables": [
             {
               "name": "GoingLeft",
-              "type": "string",
               "value": "0"
             }
           ],
           "behaviors": [
             {
+              "maxSpeed": 200,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "maxSpeed": 150,
               "acceleration": 5000,
               "canGrabPlatforms": false,
               "deceleration": 5000,
@@ -5622,9 +4615,9 @@
           "variables": [],
           "behaviors": [
             {
+              "maxSpeed": 200,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "maxSpeed": 150,
               "deceleration": 500,
               "acceleration": 500,
               "canGrabPlatforms": false,
@@ -6220,9 +5213,9 @@
           "variables": [],
           "behaviors": [
             {
+              "maxSpeed": 300,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "maxSpeed": 250,
               "acceleration": 1500,
               "canGrabPlatforms": false,
               "deceleration": 1500,
@@ -6709,9 +5702,9 @@
           "variables": [],
           "behaviors": [
             {
+              "maxSpeed": 150,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "maxSpeed": 100,
               "acceleration": 1500,
               "canGrabPlatforms": false,
               "deceleration": 1500,
@@ -7266,7 +6259,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Home-1.png",
+                      "image": "NewObject-1-6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7286,2113 +6279,6 @@
               ]
             }
           ]
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "ScoreText",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Score: ",
-          "font": "EquipmentPro.ttf",
-          "characterSize": 30,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "HighScore",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "High Score: ",
-          "font": "EquipmentPro.ttf",
-          "characterSize": 30,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "name": "Boss",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "EnemyHealth",
-              "type": "string",
-              "value": "5"
-            }
-          ],
-          "behaviors": [
-            {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "maxSpeed": 75,
-              "acceleration": 1500,
-              "canGrabPlatforms": false,
-              "deceleration": 1500,
-              "gravity": 0,
-              "ignoreDefaultControls": false,
-              "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "roundCoordinates": true,
-              "slopeMaxAngle": 60,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            },
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "animations": [
-            {
-              "name": "Idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.0769,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "../Downloads/Undead executioner puppet/png/idle2-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "../Downloads/Undead executioner puppet/png/idle2-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "../Downloads/Undead executioner puppet/png/idle2-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "../Downloads/Undead executioner puppet/png/idle2-4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "../Downloads/Undead executioner puppet/png/idle2-5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "../Downloads/Undead executioner puppet/png/idle2-6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "../Downloads/Undead executioner puppet/png/idle2-7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "../Downloads/Undead executioner puppet/png/idle2-8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Summon",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.1111,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Boss-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Boss-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Boss-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Boss-4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Boss-5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Dead",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Death-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Death-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Death-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Death-4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Death-5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Death-6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Death-7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Death-8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Death-9.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Death-10.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Death-11.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Death-12.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Death-13.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Death-14.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Death-15.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Death-16.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Death-17.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Death-18.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "TeleportStart",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.125,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "teleport-5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "teleport-6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "teleport-7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "teleport-8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 37,
-                            "y": 20
-                          },
-                          {
-                            "x": 66,
-                            "y": 34
-                          },
-                          {
-                            "x": 64,
-                            "y": 80
-                          },
-                          {
-                            "x": 42,
-                            "y": 60
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "TeleportEnd",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.125,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "TeleportEnd-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "TeleportEnd-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "TeleportEnd-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "TeleportEnd-4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "BossSummon",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "ladderClimbingSpeed": 150,
-              "maxSpeed": 125,
-              "acceleration": 1500,
-              "canGrabPlatforms": false,
-              "deceleration": 1500,
-              "gravity": 0,
-              "ignoreDefaultControls": false,
-              "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
-              "maxFallingSpeed": 700,
-              "roundCoordinates": true,
-              "slopeMaxAngle": 60,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "Idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.1,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewObject-1-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 22.99089241027832,
-                            "y": 17.310789108276367
-                          },
-                          {
-                            "x": 30.63984489440918,
-                            "y": 18.115942001342773
-                          },
-                          {
-                            "x": 32.250152587890625,
-                            "y": 38.24476623535156
-                          },
-                          {
-                            "x": 19.36770248413086,
-                            "y": 36.63446044921875
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewObject-2-4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 22.99089241027832,
-                            "y": 17.310789108276367
-                          },
-                          {
-                            "x": 30.63984489440918,
-                            "y": 18.115942001342773
-                          },
-                          {
-                            "x": 32.250152587890625,
-                            "y": 38.24476623535156
-                          },
-                          {
-                            "x": 19.36770248413086,
-                            "y": 36.63446044921875
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewObject-3-4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 22.99089241027832,
-                            "y": 17.310789108276367
-                          },
-                          {
-                            "x": 30.63984489440918,
-                            "y": 18.115942001342773
-                          },
-                          {
-                            "x": 32.250152587890625,
-                            "y": 38.24476623535156
-                          },
-                          {
-                            "x": 19.36770248413086,
-                            "y": 36.63446044921875
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewObject-4-4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 22.99089241027832,
-                            "y": 17.310789108276367
-                          },
-                          {
-                            "x": 30.63984489440918,
-                            "y": 18.115942001342773
-                          },
-                          {
-                            "x": 32.250152587890625,
-                            "y": 38.24476623535156
-                          },
-                          {
-                            "x": 19.36770248413086,
-                            "y": 36.63446044921875
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Appear",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewObject-1-0.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 22.99089241027832,
-                            "y": 17.310789108276367
-                          },
-                          {
-                            "x": 30.63984489440918,
-                            "y": 18.115942001342773
-                          },
-                          {
-                            "x": 32.250152587890625,
-                            "y": 38.24476623535156
-                          },
-                          {
-                            "x": 19.36770248413086,
-                            "y": 36.63446044921875
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewObject-2-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 22.99089241027832,
-                            "y": 17.310789108276367
-                          },
-                          {
-                            "x": 30.63984489440918,
-                            "y": 18.115942001342773
-                          },
-                          {
-                            "x": 32.250152587890625,
-                            "y": 38.24476623535156
-                          },
-                          {
-                            "x": 19.36770248413086,
-                            "y": 36.63446044921875
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewObject-3-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 22.99089241027832,
-                            "y": 17.310789108276367
-                          },
-                          {
-                            "x": 30.63984489440918,
-                            "y": 18.115942001342773
-                          },
-                          {
-                            "x": 32.250152587890625,
-                            "y": 38.24476623535156
-                          },
-                          {
-                            "x": 19.36770248413086,
-                            "y": 36.63446044921875
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewObject-4-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 22.99089241027832,
-                            "y": 17.310789108276367
-                          },
-                          {
-                            "x": 30.63984489440918,
-                            "y": 18.115942001342773
-                          },
-                          {
-                            "x": 32.250152587890625,
-                            "y": 38.24476623535156
-                          },
-                          {
-                            "x": 19.36770248413086,
-                            "y": 36.63446044921875
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewObject-5-0.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 22.99089241027832,
-                            "y": 17.310789108276367
-                          },
-                          {
-                            "x": 30.63984489440918,
-                            "y": 18.115942001342773
-                          },
-                          {
-                            "x": 32.250152587890625,
-                            "y": 38.24476623535156
-                          },
-                          {
-                            "x": 19.36770248413086,
-                            "y": 36.63446044921875
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewObject-6-0.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 22.99089241027832,
-                            "y": 17.310789108276367
-                          },
-                          {
-                            "x": 30.63984489440918,
-                            "y": 18.115942001342773
-                          },
-                          {
-                            "x": 32.250152587890625,
-                            "y": 38.24476623535156
-                          },
-                          {
-                            "x": 19.36770248413086,
-                            "y": 36.63446044921875
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "BossSummon",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "BossSummon-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 22.99089241027832,
-                            "y": 17.310789108276367
-                          },
-                          {
-                            "x": 30.63984489440918,
-                            "y": 18.115942001342773
-                          },
-                          {
-                            "x": 32.250152587890625,
-                            "y": 38.24476623535156
-                          },
-                          {
-                            "x": 19.36770248413086,
-                            "y": 36.63446044921875
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "BossSummon-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 22.99089241027832,
-                            "y": 17.310789108276367
-                          },
-                          {
-                            "x": 30.63984489440918,
-                            "y": 18.115942001342773
-                          },
-                          {
-                            "x": 32.250152587890625,
-                            "y": 38.24476623535156
-                          },
-                          {
-                            "x": 19.36770248413086,
-                            "y": 36.63446044921875
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "BossSummon-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 22.99089241027832,
-                            "y": 17.310789108276367
-                          },
-                          {
-                            "x": 30.63984489440918,
-                            "y": 18.115942001342773
-                          },
-                          {
-                            "x": 32.250152587890625,
-                            "y": 38.24476623535156
-                          },
-                          {
-                            "x": 19.36770248413086,
-                            "y": 36.63446044921875
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "BossSummon-4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 22.99089241027832,
-                            "y": 17.310789108276367
-                          },
-                          {
-                            "x": 30.63984489440918,
-                            "y": 18.115942001342773
-                          },
-                          {
-                            "x": 32.250152587890625,
-                            "y": 38.24476623535156
-                          },
-                          {
-                            "x": 19.36770248413086,
-                            "y": 36.63446044921875
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "BossSummon-5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 22.99089241027832,
-                            "y": 17.310789108276367
-                          },
-                          {
-                            "x": 30.63984489440918,
-                            "y": 18.115942001342773
-                          },
-                          {
-                            "x": 32.250152587890625,
-                            "y": 38.24476623535156
-                          },
-                          {
-                            "x": 19.36770248413086,
-                            "y": 36.63446044921875
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "height": 64,
-          "name": "Platform",
-          "tags": "",
-          "texture": "Platform-1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 64,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "Jumpthru",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "HealthText",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "House Health",
-          "font": "EquipmentPro.ttf",
-          "characterSize": 20,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
         }
       ],
       "events": [
@@ -9451,31 +6337,6 @@
                 "yes",
                 "10",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "LireFichierExp"
-              },
-              "parameters": [
-                "\"Storage\"",
-                "\"HighScore\"",
-                "",
-                "HighScore"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "HighScore",
-                "=",
-                "\"High Score: \" + ToString(Variable(HighScore))"
               ],
               "subInstructions": []
             }
@@ -9567,18 +6428,6 @@
                 "",
                 "1",
                 "\"enemyspawn\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "BossPhase",
-                "=",
-                "0"
               ],
               "subInstructions": []
             }
@@ -9930,589 +6779,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ChangeWidth"
+                "value": "ChangeScaleWidth"
               },
               "parameters": [
                 "HealthBar",
                 "=",
-                "40 * House.Variable(HouseHealth)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "ScoreText",
-                "=",
-                "\"Score: \" + ToString(Variable(Score))"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Egal"
-              },
-              "parameters": [
-                "mod(Variable(Score), 200)",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "Score",
-                "!=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "BossPhase",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "BossPhase",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Timer"
-                  },
-                  "parameters": [
-                    "",
-                    "5",
-                    "\"enemyspawn\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Boss",
-                    "1500",
-                    "475",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeScale"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "*",
-                    "2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Boss",
-                    "\"teleport\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ObjectTimer"
-              },
-              "parameters": [
-                "Boss",
-                "\"teleport\"",
-                "5"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "Boss",
-                "\"TeleportStart\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "Boss",
-                "\"teleport\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "Boss",
-                "\"TeleportStart\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "AnimationEnded"
-              },
-              "parameters": [
-                "Boss"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "MettreY"
-              },
-              "parameters": [
-                "Boss",
-                "=",
-                "RandomWithStep(100, 500, 200)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "Boss",
-                "\"TeleportEnd\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "Boss",
-                "\"TeleportEnd\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "AnimationEnded"
-              },
-              "parameters": [
-                "Boss"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "Boss",
-                "\"Idle\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "Boss",
-                "\"Idle\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ObjectTimer"
-              },
-              "parameters": [
-                "Boss",
-                "\"summon\"",
-                "3"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "BossSummon",
-                "Boss.X()",
-                "Boss.Y() + 50",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "BossSummon",
-                "*",
-                "2"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "BossSummon",
-                "\"Appear\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "Boss",
-                "\"Summon\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "Boss",
-                "\"summon\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "Boss",
-                "\"Summon\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "AnimationEnded"
-              },
-              "parameters": [
-                "Boss"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "Boss",
-                "\"Idle\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "BossSummon",
-                "\"Appear\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "AnimationEnded"
-              },
-              "parameters": [
-                "BossSummon"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "BossSummon",
-                "\"Idle\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "BossSummon",
-                "Player",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "Player",
-                "Disabled",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "Player",
-                "\"disabled\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Delete"
-              },
-              "parameters": [
-                "BossSummon",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlatformBehavior::SimulateLeftKey"
-              },
-              "parameters": [
-                "BossSummon",
-                "PlatformerObject"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ObjectTimer"
-              },
-              "parameters": [
-                "Player",
-                "\"disabled\"",
-                "5"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "Player",
-                "Disabled",
-                "=",
-                "0"
+                "House.Variable(HouseHealth)"
               ],
               "subInstructions": []
             }
@@ -10550,6 +6822,20 @@
             {
               "type": {
                 "inverted": false,
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "life lost sound.wav",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "Scene"
               },
               "parameters": [
@@ -10560,50 +6846,7 @@
               "subInstructions": []
             }
           ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "HighScore",
-                    "<",
-                    "Variable(Score)"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "EcrireFichierExp"
-                  },
-                  "parameters": [
-                    "\"Storage\"",
-                    "\"HighScore\"",
-                    "Variable(Score)"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
+          "events": []
         },
         {
           "disabled": false,
@@ -10685,13 +6928,97 @@
             {
               "type": {
                 "inverted": false,
-                "value": "VarObjet"
+                "value": "Timer"
               },
               "parameters": [
-                "Player",
-                "Disabled",
-                "=",
-                "0"
+                "",
+                "0.72",
+                "\"firerate\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "ArrowProjectile",
+                "Player.PointX(\"Bow\")",
+                "Player.PointY(\"Bow\")",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "ArrowProjectile",
+                "Player.Angle()",
+                "400",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"firerate\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "ArrowProjectile",
+                "*",
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "zapsplat_warfare_bow_arrow_release_002_15477.mp3",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
               ],
               "subInstructions": []
             }
@@ -10709,94 +7036,72 @@
               "subInstructions": []
             }
           ],
-          "events": [
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Timer"
-                  },
-                  "parameters": [
-                    "",
-                    "0.72",
-                    "\"firerate\""
-                  ],
-                  "subInstructions": []
-                }
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Space"
               ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "ArrowProjectile",
-                    "Player.PointX(\"Bow\")",
-                    "Player.PointY(\"Bow\")",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AddForceAL"
-                  },
-                  "parameters": [
-                    "ArrowProjectile",
-                    "Player.Angle()",
-                    "400",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"firerate\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeScale"
-                  },
-                  "parameters": [
-                    "ArrowProjectile",
-                    "*",
-                    "2"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlayMusic"
-                  },
-                  "parameters": [
-                    "",
-                    "zapsplat_warfare_bow_arrow_release_002_15477.mp3",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
+              "subInstructions": []
             }
-          ]
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::SimulateJumpKey"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Down"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Jumpthru",
+                "Platform",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         },
         {
           "disabled": false,
@@ -10810,112 +7115,26 @@
               },
               "parameters": [
                 "",
-                "e"
+                "Down"
               ],
               "subInstructions": []
             }
           ],
-          "actions": [],
-          "events": [
+          "actions": [
             {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Space"
-                  ],
-                  "subInstructions": []
-                }
+              "type": {
+                "inverted": false,
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Jumpthru",
+                "Platform",
+                "yes"
               ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlatformBehavior::SimulateJumpKey"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Down"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Platform",
-                    "Platform",
-                    "no"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Down"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Platform",
-                    "Platform",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
+              "subInstructions": []
             }
-          ]
+          ],
+          "events": []
         },
         {
           "disabled": false,
@@ -11255,11 +7474,10 @@
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridR": 158,
-        "gridType": "rectangular",
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.7000000000000001
+        "zoomFactor": 1
       },
       "objectsGroups": [],
       "variables": [],
@@ -11273,8 +7491,8 @@
           "name": "Player",
           "persistentUuid": "902ca1a5-739e-4228-8b70-402feea3c292",
           "width": 98,
-          "x": 83,
-          "y": 92,
+          "x": 82,
+          "y": 130,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -11288,9 +7506,9 @@
           "locked": false,
           "name": "Title",
           "persistentUuid": "009be398-1d2d-4353-b1bc-6e48a55a3c1a",
-          "width": 307,
-          "x": 47,
-          "y": 13,
+          "width": 618,
+          "x": 93,
+          "y": 43,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -11305,8 +7523,8 @@
           "name": "Skeleton",
           "persistentUuid": "798a5486-1f62-49ea-8a22-7671954dab0a",
           "width": 156,
-          "x": 48,
-          "y": 144,
+          "x": 49,
+          "y": 198,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -11322,7 +7540,7 @@
           "persistentUuid": "1b9257cf-b269-41c6-92a1-b93880fc445f",
           "width": 129,
           "x": 66,
-          "y": 217,
+          "y": 269,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -11338,7 +7556,7 @@
           "persistentUuid": "7cfc7312-5909-4ee1-80bd-a2f6b948fd78",
           "width": 144,
           "x": 53,
-          "y": 284,
+          "y": 334,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -11353,8 +7571,8 @@
           "name": "Mushroom",
           "persistentUuid": "53231bc2-bb6d-41e2-9ce6-2597dbc807d7",
           "width": 280,
-          "x": -13,
-          "y": 273,
+          "x": -12,
+          "y": 331,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -11369,8 +7587,8 @@
           "name": "PlayerDetails",
           "persistentUuid": "bf49a910-5f42-4a6a-86e3-2415f0118e3c",
           "width": 0,
-          "x": 181,
-          "y": 133,
+          "x": 185,
+          "y": 170,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -11385,8 +7603,8 @@
           "name": "Controls",
           "persistentUuid": "191b1baf-a976-420b-a937-0ae315bce4b3",
           "width": 0,
-          "x": 428,
-          "y": 9,
+          "x": 427,
+          "y": 48,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -11401,8 +7619,8 @@
           "name": "SkeletonText",
           "persistentUuid": "c8c34eda-7fcd-4ac7-aca4-ad5ac06bf97a",
           "width": 0,
-          "x": 180,
-          "y": 210,
+          "x": 186,
+          "y": 257,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -11417,8 +7635,8 @@
           "name": "GoblinText",
           "persistentUuid": "5401a1e3-258e-46de-9bf9-23200e18073d",
           "width": 0,
-          "x": 180,
-          "y": 285,
+          "x": 183,
+          "y": 331,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -11433,8 +7651,8 @@
           "name": "FlyingEyeText",
           "persistentUuid": "53d6d792-4d21-402e-a66b-54f51340ca67",
           "width": 0,
-          "x": 180,
-          "y": 348,
+          "x": 181,
+          "y": 394,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -11449,8 +7667,8 @@
           "name": "MushroomText",
           "persistentUuid": "2ef1c09e-516b-4635-afa1-a7b6549fbaeb",
           "width": 0,
-          "x": 177,
-          "y": 428,
+          "x": 176,
+          "y": 468,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -11465,57 +7683,9 @@
           "name": "Instruction",
           "persistentUuid": "c55c0f9a-edd2-4ab1-9faa-990c134be532",
           "width": 0,
-          "x": 257,
-          "y": 553,
+          "x": 264,
+          "y": 532,
           "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Boss",
-          "persistentUuid": "808ecb76-21b9-4f66-87e6-7d07963cc9d3",
-          "width": 0,
-          "x": 81,
-          "y": 463,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "BossText",
-          "persistentUuid": "b9bfd429-cb86-4d1c-83f0-6895724d5d76",
-          "width": 0,
-          "x": 176,
-          "y": 502,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "BossSummon",
-          "persistentUuid": "1d64a652-bfdd-4a47-9c0c-960929a95e02",
-          "width": 0,
-          "x": 128,
-          "y": 504,
-          "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12176,273 +8346,6 @@
             "g": 255,
             "r": 255
           }
-        },
-        {
-          "name": "Boss",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.07999999821186066,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Idle-1-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Idle-2-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Idle-3-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Idle-4-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Idle-5-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Idle-6-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Idle-7-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Idle-8-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "BossText",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Undead - A powerful, teleporting foe. Avoid touching the summoned curses. [5HP]",
-          "font": "EquipmentPro.ttf",
-          "characterSize": 20,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
-        },
-        {
-          "name": "BossSummon",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "BossSummon",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.11110000312328339,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "BossSummon-1-0.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "BossSummon-2-0.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "BossSummon-3-0.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "BossSummon-4-0.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "events": [
@@ -12527,7 +8430,6 @@
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridR": 158,
-        "gridType": "rectangular",
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
@@ -12932,7 +8834,6 @@
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridR": 158,
-        "gridType": "rectangular",
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
@@ -13908,79 +9809,6 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Boss",
-                    "House",
-                    "",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "InvincibilityCheat",
-                    "=",
-                    "-1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "House",
-                    "HouseHealth",
-                    "-",
-                    "5"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "BossPhase",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "Score",
-                    "+",
-                    "10"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
                     "ArrowProjectile",
                     "Enemy",
                     "",
@@ -14066,20 +9894,8 @@
                     "",
                     "soundbits_ScreamsShouts2_Monsters_Monster_Pain_Death_133.mp3",
                     "",
-                    "30",
+                    "50",
                     ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "Score",
-                    "+",
-                    "10"
                   ],
                   "subInstructions": []
                 }
@@ -14151,59 +9967,6 @@
             }
           ],
           "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "Boss",
-                "\"Dead\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "BossPhase",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "Score",
-                "+",
-                "50"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
         }
       ]
     }
@@ -14225,7 +9988,6 @@
         "ellipsis",
         "movement"
       ],
-      "dependencies": [],
       "eventsFunctions": [],
       "eventsBasedBehaviors": [
         {
@@ -14239,7 +10001,6 @@
               "fullName": "",
               "functionType": "Action",
               "name": "doStepPreEvents",
-              "private": false,
               "sentence": "",
               "events": [
                 {
@@ -14496,7 +10257,6 @@
         "parallax",
         "tiled"
       ],
-      "dependencies": [],
       "eventsFunctions": [],
       "eventsBasedBehaviors": [
         {
@@ -14510,7 +10270,6 @@
               "fullName": "",
               "functionType": "Action",
               "name": "doStepPostEvents",
-              "private": false,
               "sentence": "",
               "events": [
                 {
@@ -14616,7 +10375,6 @@
               "fullName": "",
               "functionType": "Action",
               "name": "doStepPostEvents",
-              "private": false,
               "sentence": "",
               "events": [
                 {
