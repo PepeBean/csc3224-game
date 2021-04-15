@@ -413,7 +413,25 @@ gdjs.GameplayCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumbe
 }
 
 
-};gdjs.GameplayCode.mapOfGDgdjs_46GameplayCode_46GDBossObjects2Objects = Hashtable.newFrom({"Boss": gdjs.GameplayCode.GDBossObjects2});gdjs.GameplayCode.mapOfGDgdjs_46GameplayCode_46GDHouseObjects2Objects = Hashtable.newFrom({"House": gdjs.GameplayCode.GDHouseObjects2});gdjs.GameplayCode.mapOfGDgdjs_46GameplayCode_46GDArrowProjectileObjects2Objects = Hashtable.newFrom({"ArrowProjectile": gdjs.GameplayCode.GDArrowProjectileObjects2});gdjs.GameplayCode.mapOfGDgdjs_46GameplayCode_46GDSkeletonEnemyObjects2ObjectsGDgdjs_46GameplayCode_46GDFlyingEyeEnemyObjects2ObjectsGDgdjs_46GameplayCode_46GDMushroomEnemyObjects2ObjectsGDgdjs_46GameplayCode_46GDGoblinEnemyObjects2ObjectsGDgdjs_46GameplayCode_46GDBossObjects2Objects = Hashtable.newFrom({"SkeletonEnemy": gdjs.GameplayCode.GDSkeletonEnemyObjects2, "FlyingEyeEnemy": gdjs.GameplayCode.GDFlyingEyeEnemyObjects2, "MushroomEnemy": gdjs.GameplayCode.GDMushroomEnemyObjects2, "GoblinEnemy": gdjs.GameplayCode.GDGoblinEnemyObjects2, "Boss": gdjs.GameplayCode.GDBossObjects2});gdjs.GameplayCode.eventsList9 = function(runtimeScene) {
+};gdjs.GameplayCode.mapOfGDgdjs_46GameplayCode_46GDBossObjects2Objects = Hashtable.newFrom({"Boss": gdjs.GameplayCode.GDBossObjects2});gdjs.GameplayCode.mapOfGDgdjs_46GameplayCode_46GDHouseObjects2Objects = Hashtable.newFrom({"House": gdjs.GameplayCode.GDHouseObjects2});gdjs.GameplayCode.eventsList9 = function(runtimeScene) {
+
+{
+
+
+gdjs.GameplayCode.condition0IsTrue_0.val = false;
+{
+gdjs.GameplayCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0)) == -(1);
+}if (gdjs.GameplayCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.GameplayCode.GDHouseObjects2 */
+{for(var i = 0, len = gdjs.GameplayCode.GDHouseObjects2.length ;i < len;++i) {
+    gdjs.GameplayCode.GDHouseObjects2[i].returnVariable(gdjs.GameplayCode.GDHouseObjects2[i].getVariables().get("HouseHealth")).sub(5);
+}
+}}
+
+}
+
+
+};gdjs.GameplayCode.mapOfGDgdjs_46GameplayCode_46GDArrowProjectileObjects2Objects = Hashtable.newFrom({"ArrowProjectile": gdjs.GameplayCode.GDArrowProjectileObjects2});gdjs.GameplayCode.mapOfGDgdjs_46GameplayCode_46GDSkeletonEnemyObjects2ObjectsGDgdjs_46GameplayCode_46GDFlyingEyeEnemyObjects2ObjectsGDgdjs_46GameplayCode_46GDMushroomEnemyObjects2ObjectsGDgdjs_46GameplayCode_46GDGoblinEnemyObjects2ObjectsGDgdjs_46GameplayCode_46GDBossObjects2Objects = Hashtable.newFrom({"SkeletonEnemy": gdjs.GameplayCode.GDSkeletonEnemyObjects2, "FlyingEyeEnemy": gdjs.GameplayCode.GDFlyingEyeEnemyObjects2, "MushroomEnemy": gdjs.GameplayCode.GDMushroomEnemyObjects2, "GoblinEnemy": gdjs.GameplayCode.GDGoblinEnemyObjects2, "Boss": gdjs.GameplayCode.GDBossObjects2});gdjs.GameplayCode.eventsList10 = function(runtimeScene) {
 
 {
 
@@ -502,21 +520,15 @@ gdjs.copyArray(gdjs.GameplayCode.GDBossObjects1, gdjs.GameplayCode.GDBossObjects
 gdjs.copyArray(runtimeScene.getObjects("House"), gdjs.GameplayCode.GDHouseObjects2);
 
 gdjs.GameplayCode.condition0IsTrue_0.val = false;
-gdjs.GameplayCode.condition1IsTrue_0.val = false;
 {
 gdjs.GameplayCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GameplayCode.mapOfGDgdjs_46GameplayCode_46GDBossObjects2Objects, gdjs.GameplayCode.mapOfGDgdjs_46GameplayCode_46GDHouseObjects2Objects, false, runtimeScene, false);
-}if ( gdjs.GameplayCode.condition0IsTrue_0.val ) {
-{
-gdjs.GameplayCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0)) == -(1);
-}}
-if (gdjs.GameplayCode.condition1IsTrue_0.val) {
-/* Reuse gdjs.GameplayCode.GDHouseObjects2 */
-{for(var i = 0, len = gdjs.GameplayCode.GDHouseObjects2.length ;i < len;++i) {
-    gdjs.GameplayCode.GDHouseObjects2[i].returnVariable(gdjs.GameplayCode.GDHouseObjects2[i].getVariables().get("HouseHealth")).sub(5);
+}if (gdjs.GameplayCode.condition0IsTrue_0.val) {
+{runtimeScene.getVariables().getFromIndex(2).setNumber(0);
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "phaseswitch");
 }
-}{runtimeScene.getVariables().getFromIndex(2).setNumber(0);
-}{runtimeScene.getVariables().getFromIndex(1).add(10);
-}}
+{ //Subevents
+gdjs.GameplayCode.eventsList9(runtimeScene);} //End of subevents
+}
 
 }
 
@@ -647,7 +659,7 @@ for(var i = 0, len = gdjs.GameplayCode.GDBossObjects1.length ;i < len;++i) {
 }
 
 
-};gdjs.GameplayCode.eventsList10 = function(runtimeScene) {
+};gdjs.GameplayCode.eventsList11 = function(runtimeScene) {
 
 {
 
@@ -664,6 +676,7 @@ gdjs.copyArray(runtimeScene.getObjects("HighScore"), gdjs.GameplayCode.GDHighSco
     gdjs.GameplayCode.GDHighScoreObjects1[i].setString("High Score: " + gdjs.evtTools.common.toString(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(3))));
 }
 }{gdjs.evtTools.sound.playMusic(runtimeScene, "music_orlamusic_Epic+010.mp3", true, 10, 1);
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "phaseswitch");
 }
 { //Subevents
 gdjs.GameplayCode.eventsList0(runtimeScene);} //End of subevents
@@ -805,15 +818,20 @@ gdjs.copyArray(runtimeScene.getObjects("ScoreText"), gdjs.GameplayCode.GDScoreTe
 
 gdjs.GameplayCode.condition0IsTrue_0.val = false;
 gdjs.GameplayCode.condition1IsTrue_0.val = false;
+gdjs.GameplayCode.condition2IsTrue_0.val = false;
 {
-{gdjs.GameplayCode.conditionTrue_1 = gdjs.GameplayCode.condition0IsTrue_0;
-gdjs.GameplayCode.conditionTrue_1.val = (gdjs.evtTools.common.mod(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(1)), 200) == 0);
-}
+gdjs.GameplayCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsedTime(runtimeScene, 20, "phaseswitch");
 }if ( gdjs.GameplayCode.condition0IsTrue_0.val ) {
 {
 gdjs.GameplayCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(1)) != 0;
+}if ( gdjs.GameplayCode.condition1IsTrue_0.val ) {
+{
+{gdjs.GameplayCode.conditionTrue_1 = gdjs.GameplayCode.condition2IsTrue_0;
+gdjs.GameplayCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8591980);
+}
 }}
-if (gdjs.GameplayCode.condition1IsTrue_0.val) {
+}
+if (gdjs.GameplayCode.condition2IsTrue_0.val) {
 {runtimeScene.getVariables().getFromIndex(2).setNumber(1);
 }}
 
@@ -1386,7 +1404,7 @@ gdjs.GameplayCode.GDGoblinEnemyObjects1.length = k;for(var i = 0, k = 0, l = gdj
 gdjs.GameplayCode.GDBossObjects1.length = k;}if (gdjs.GameplayCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.GameplayCode.eventsList9(runtimeScene);} //End of subevents
+gdjs.GameplayCode.eventsList10(runtimeScene);} //End of subevents
 }
 
 }
@@ -1533,6 +1551,7 @@ if (gdjs.GameplayCode.condition1IsTrue_0.val) {
 {runtimeScene.getVariables().getFromIndex(2).setNumber(0);
 }{runtimeScene.getVariables().getFromIndex(1).add(50);
 }{gdjs.evtTools.sound.playMusic(runtimeScene, "zapsplat_horror_voice_ghostly_vocalisation_12163.mp3", false, 30, 1);
+}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "phaseswitch");
 }}
 
 }
@@ -1715,7 +1734,7 @@ gdjs.GameplayCode.GDStatisticsObjects1.length = 0;
 gdjs.GameplayCode.GDStatisticsObjects2.length = 0;
 gdjs.GameplayCode.GDStatisticsObjects3.length = 0;
 
-gdjs.GameplayCode.eventsList10(runtimeScene);
+gdjs.GameplayCode.eventsList11(runtimeScene);
 return;
 
 }

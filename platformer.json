@@ -9693,6 +9693,17 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"phaseswitch\""
+              ],
+              "subInstructions": []
             }
           ],
           "events": [
@@ -10280,12 +10291,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Egal"
+                "value": "Timer"
               },
               "parameters": [
-                "mod(Variable(Score), 200)",
-                "=",
-                "0"
+                "",
+                "20",
+                "\"phaseswitch\""
               ],
               "subInstructions": []
             },
@@ -10299,6 +10310,14 @@
                 "!=",
                 "0"
               ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
               "subInstructions": []
             }
           ],
@@ -14333,34 +14352,9 @@
                     ""
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "InvincibilityCheat",
-                    "=",
-                    "-1"
-                  ],
-                  "subInstructions": []
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "House",
-                    "HouseHealth",
-                    "-",
-                    "5"
-                  ],
-                  "subInstructions": []
-                },
                 {
                   "type": {
                     "inverted": false,
@@ -14376,17 +14370,52 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarScene"
+                    "value": "ResetTimer"
                   },
                   "parameters": [
-                    "Score",
-                    "+",
-                    "10"
+                    "",
+                    "\"phaseswitch\""
                   ],
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "InvincibilityCheat",
+                        "=",
+                        "-1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "House",
+                        "HouseHealth",
+                        "-",
+                        "5"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -14617,6 +14646,17 @@
                 "",
                 "30",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"phaseswitch\""
               ],
               "subInstructions": []
             }
